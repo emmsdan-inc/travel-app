@@ -5,11 +5,14 @@ This is part of a larger assessment
 ## Instructions
 Follow these steps to contribute to the project:
 
+### Fork the Repository: 
+Start by forking this repository to your GitHub account. You can do this by clicking the "Fork" button at the top right of the repository page.
+
 ### Clone the Repository: 
-Start by cloning this repository to your local machine. You can do this using the following command in your terminal:
+After forking, clone your forked repository to your local machine. You can do this using the following command in your terminal:
 
 ```bash
-git clone https://github.com/emmsdan-inc/travel-app
+git clone <your-fork-url>
 ```
 
 ### Create a Branch: 
