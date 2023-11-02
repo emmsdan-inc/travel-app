@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       #teamList {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#teamList td, #teamList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#teamList tr:nth-child(even){background-color: #f2f2f2;}
+
+#teamList tr:hover {background-color: #ddd;}
+
+#teamList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <h1> Your team mates</h1>
+        <table id="teamList">
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th> Member 1 Name</th>
+                    <th> Member 2 Name</th>
+                    <th> Member 1 Email</th>
+                    <th> Member 2 Email</th>
+                </tr>
+            </thead>
+    </table>
+
+    <script src="./teams.js"></script>
+    <script>
+        // Function to format a team as a string
+        function formatTeam(team, teamId) {
+            const names =  team.map(person => `
+            <td>${person.FirstName} ${person.LastName}</td>
+            `).join('');
+            const emails =  team.map(person => `
+            <td>${person.Email}</td>
+            `).join('');
+            return `<td>Team ${teamId}</td> ${names} ${emails}`
+        }
+
+        // Function to generate the HTML and insert it into the page
+        function renderTeams(teams) {
+            const teamListElement = document.getElementById('teamList');
+
+            teams.forEach((team, index) => {
+                const teamTr = document.createElement('tr');
+                teamTr.innerHTML = formatTeam(team, index+1)
+                teamListElement.appendChild(teamTr);
+            });
+        }
+
+        // Call the function to render the teams
+        renderTeams(allTeams);
+    </script>
+</body>
+</html>
