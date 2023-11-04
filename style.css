@@ -1,10 +1,10 @@
 body {
+  margin: 0;
+  padding: 0;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 45px;
   padding-bottom: 45px;
-  margin: 0;
-  padding: 0;
 }
 .nav-list li a {
   margin-left: 20px;
