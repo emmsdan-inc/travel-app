@@ -1,40 +1,45 @@
 body {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   padding: 47px 110px 42px 140.92px;
 }
 .header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 .navbar ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 3rem;
 }
 .navbar ul li a {
   text-decoration: none;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 1.06rem;
   color: #212832;
 }
-.header-btn {
-  padding: 5px 10px;
+.navbar-btn{
+  padding: 5px 12px;
   border-radius: 5px;
   border: 1px solid #212832;
-  cursor: pointer;
   color: #212832;
-  font-weight: 400;
+  cursor: pointer;
   background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.div1{
+  display: flex;
 }
