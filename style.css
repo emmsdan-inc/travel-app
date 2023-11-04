@@ -1,4 +1,115 @@
-body {
+body, h1, h2, .text__section > p{
   margin: 0;
-  padding: 0
+  padding: 0;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__section{
+  display: grid;
+  gap: 30px;
+}
+
+.text__section h2 {
+  color: #df6951;
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+text-transform: uppercase;
+}
+
+.hero__text {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  width: 545px;
+  font-family: 'Volkhov';
+  color: #181e4b;
+}
+
+.text__section p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5e6282;
+  width: 477px;
+  height: 90px;
+}
+
+.decor {
+  position: relative;
+  display: inline-block;
+}
+
+.decor img {
+  position: absolute;
+  width: 385px;
+  height: 12px;
+  top: 80%;
+  left: -30px;
+}
+
+.decor .text {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  background-color: #f1a501;
+  box-shadow: 0px 20px 35px 0px #f1a50126;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 170px;
+  height: 60px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.btn:hover{
+  width: 190px;
+  height: 80px;
+  
+}
+.elipse {
+  background-color: #df6951;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  box-shadow: 0px 15px 30px 0px #df69514d;
+  position: relative;
+}
+.triangle {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 0;
+  height: 0;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  border-top: 15px solid #ffffff;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.buttons p{
+  font-family: poppins;
+  font-weight: 500;
+  align-self: center;
+}
+
