@@ -37,7 +37,7 @@ Once you've implemented the design, commit your changes to your branch. It's a g
 ```bash
 git add .
 git commit -m "Implemented header navigation design changes"
-git push origin YourName/PartnerName
+gitgit push origin YourName/PartnerName
 ```
 
 ### Create a Pull Request (PR): 
