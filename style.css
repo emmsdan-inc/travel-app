@@ -1,4 +1,48 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+}
+
+.body {
+  width: 80%;
+  height: 90vh;
+  padding-top: 40px;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+}
+
+.second-nav {
+  display: inline-flex;
+  /* border: 1px solid black; */
+  width: 70%;
+  color: rgba(33, 40, 50, 1);
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 7px;
+}
+
+.login {
+  font-weight: 500;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: white;
+  border: 0.1px solid rgba(33, 40, 50, 1);
+  font-size: 16px;
+  border-radius: 5px;
+  width: 102px;
 }
