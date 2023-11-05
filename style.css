@@ -1,4 +1,126 @@
 body {
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 130px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 3.5em;
   margin: 0;
-  padding: 0
+}
+
+.list {
+  margin: 1em 4em 0em;
+  align-items: center;
+}
+
+#sign_up {
+  padding-bottom: 2px;
+}
+
+.sign_up {
+  padding: 2px 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.shift {
+  padding-right: 300px;
+  width: 300px;
+}
+
+h5 {
+  color: #da7865;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 44px;
+  color: #181e4b;
+  font-weight: 600;
+}
+
+.move {
+  padding: 40px 0px;
+  /*position: relative;*/
+}
+
+h1 {
+  padding: 0px 0px 8px;
+  position: relative;
+}
+span::before {
+  content: "";
+  position: absolute;
+  right: 17%;
+  top: 40px;
+  width: 110px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238, 111, 87, 0.5);
+  z-index: -1;
+}
+
+.down {
+  padding-bottom: 0px;
+}
+
+/*span {
+  background-image: url("https://media.istockphoto.com/id/1366044234/photo/abstract-acrylic-watercolor-paint-brush-stroke-texture-isolated-on-white-background-for-logo.jpg?s=612x612&w=0&k=20&c=QR2L8DUWZTrj1PV7Usz9Ve3_D7SKx2wZ82CUhsBz8DE=");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}*/
+
+.yellow {
+  background-color: #f1a501;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 30px;
+}
+
+.video_player {
+  font-size: 32px;
+  text-shadow: 0px 0px 3px lightgrey;
+  /*drop-shadow: 0px 4px 8px grey;*/
+}
+
+.demo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item {
+  padding-right: 15px;
+}
+
+.lady {
+  height: 500px;
 }
