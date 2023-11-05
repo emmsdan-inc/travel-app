@@ -1,4 +1,104 @@
+
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  background: #fff;
 }
+
+h3 {
+  color: #df6951;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: var(--1st, #181e4b);
+  font-family: Volkhov;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 105.952% */
+  letter-spacing: -3.36px;
+  width: 545px;
+  height: 200px;
+}
+
+.para {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+}
+
+img {
+  width: 765px;
+  height: 764px;
+}
+
+section {
+  display: inline-flex;
+  height: 911px;
+  padding: 47px 110px 42px 140.92px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.buttons {
+  display: inline-flex;
+}
+div button {
+  width: 170px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: none;
+  background: var(--yellow, #f1a501);
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+svg {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.buttons p {
+  width: 92px;
+  height: 26px;
+  color: var(--text-color, #686d77);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.enjoy{
+  position: relative;
+  z-index: 2;
+}
+
+
+.decore{
+  width: 300px;
+  height: 10px;
+  position: absolute;
+  z-index: 3;
+}
+
+.travel-enjoy{
+  display: inline-flex;
+}
+
