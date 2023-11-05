@@ -5,7 +5,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
 }
 ul{
   list-style: none;
@@ -29,4 +29,121 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+img{
+  max-width: 100%;
+}
+
+/* Main style */
+.flex{
+  display: flex;
+  align-items: center;
+}
+.content{
+  flex: 1;
+  margin-top: 35px;
+}
+.content h2{
+color: #DF6951;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.content h1{
+color: #181E4B;
+font-family: Volkhov;
+font-size: 84px;
+font-weight: 700;
+line-height: 89px; /* 105.952% */
+letter-spacing: -3.36px;
+margin: 0 auto;
+position: relative;
+}
+.paint{
+  position: relative;
+  z-index: 1;
+}
+.paint::after{
+  content:'';
+  background-image: url('./Decore.svg');
+  background-position: contain;
+  width: 100%;
+  height: 10px;
+  padding: 2px 45px;
+  position: absolute;
+  top: 78px;
+  right: -65px;
+  z-index: -1;
+}
+.content p{
+color: #5E6282;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+width: 85%;
+margin-bottom: 0;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+}
+.btn-container a{
+border-radius: 10px;
+background: #F1A501;
+box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+text-decoration: none;
+color: #fff;
+font-family: Noto Sans;
+font-size: 15px;
+font-weight: 500;
+padding: 15px 20px;
+}
+.btn-container button{
+display: flex;
+align-items: center;
+color: #686D77;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+background: none;
+border: none;
+cursor: pointer;
+}
+.btn-container button svg{
+  width: 100px;
+  height: 100px;
+  margin-top: 22px;
+}
+.img-container{
+  flex: 1.2;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+  .flex{
+    flex-direction: column;
+  }
+  .btn-container a{
+    font-size: 14px;
+  }
+  .btn-container button{
+    font-size: 14px;
+  }
 }
