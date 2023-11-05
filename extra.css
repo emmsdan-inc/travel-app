@@ -1,0 +1,25 @@
+/*span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline */
+  background-image: url("https://media.istockphoto.com/id/1366044234/photo/abstract-acrylic-watercolor-paint-brush-stroke-texture-isolated-on-white-background-for-logo.jpg?s=612x612&w=0&k=20&c=QR2L8DUWZTrj1PV7Usz9Ve3_D7SKx2wZ82CUhsBz8DE="); /* Replace 'your-underline-image.png' with the path to your underline image */
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Adjust the image size to cover the underline */
+  background-position: center bottom; /* Center the image horizontally and position it at the bottom */
+}
+
+span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  /* Adjust the height to control the underline thickness */
+  background-image: (
+    "https://media.istockphoto.com/id/1366044234/photo/abstract-acrylic-watercolor-paint-brush-stroke-texture-isolated-on-white-background-for-logo.jpg?s=612x612&w=0&k=20&c=QR2L8DUWZTrj1PV7Usz9Ve3_D7SKx2wZ82CUhsBz8DE="
+  );
+  /* Adjust the color of the underline */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
