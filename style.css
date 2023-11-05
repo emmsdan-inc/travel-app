@@ -1,67 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Volkhov:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@500,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@500,700&display=swap");
 
-
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins',sans-serif;
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  padding: 42px 110px 47px 140px;
-  justify-content:center ;
-  align-items: center;  
-  font-size: 16px; 
-  overflow: hidden;
-  color:#212832 ;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-main{
-  display: flex; 
-  align-items:center;
-  padding: 0 30px;
+body {
+  width: 100%;
+  padding: 47px 110px 42px 140.92px;
+  font-size: 16px;
+  color: #212832;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li button {
+  background-color: transparent;
+  width: 102px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid var(--1st, #959697);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .info {
   width: 55%;
-  padding:80px 0 70px 0;
+  padding: 80px 0 70px 0;
 }
 
 figure {
-  width: 45%;
+  width: 60%;
   margin-left: -149px;
   justify-items: left;
 }
-.pix{
+
+.pix {
   width: 100%;
 }
 
 p {
-  color: #DF6951;
+  color: #df6951;
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 h1 {
-  color:  #181E4B;
+  color: #181e4b;
   font-size: 5.23rem;
   font-weight: 700;
-  font-family: 'Volkhov', sans-serif;
-  line-height: 79px; 
+  font-family: "Volkhov", sans-serif;
+  line-height: 79px;
   letter-spacing: -3.36px;
   position: relative;
   margin: 10px 0;
 }
- 
+
 .decor {
   position: absolute;
   top: 10px;
   right: 15px;
 }
 small {
-  color: #5E6282;
+  color: #5e6282;
   font-family: Poppins;
   font-weight: 500;
   margin-bottom: 0px;
@@ -72,11 +105,12 @@ aside {
   align-items: center;
   margin-top: -15px;
 }
-button {
+
+.find {
   border-radius: 10px;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
-  background: var(--yellow, #F1A501);
+  background: var(--yellow, #f1a501);
   box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
   border: none;
   padding: 20px 25px;
@@ -85,7 +119,6 @@ button {
 .play {
   display: flex;
   align-items: center;
-  
 }
 
 .btn {
@@ -94,7 +127,7 @@ button {
 }
 
 .play span {
-  color:  #686D77;
+  color: #686d77;
   font-size: 17px;
   font-weight: 500;
   white-space: nowrap;
