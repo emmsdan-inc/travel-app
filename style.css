@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&family=Volkhov:wght@700&display=swap');
+
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 140.92px 0;
+}
+nav ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.063rem;  /* 17px */  
+  margin-right: 50px;
+  color: #212832; 
+}
+nav .but {
+  border: 1px solid #212832;
+  padding: 9px 22px;
+  border-radius: 5px;
 }
