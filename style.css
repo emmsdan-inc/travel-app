@@ -1,4 +1,57 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+#travel-header{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  border: 1px solid sandybrown;
+  padding: 10px;
+}
+#nav_menu{
+  width: 500px;
+  /* margin: auto; */
+  /* display: flex; */
+}
+.nav_item{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /* align-self: auto; */
+  list-style: none;
+  /* background-color: deepskyblue */
+}
+a{
+color: #212832cd;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+ .create{
+   display: flex;
+   overflow: hidden;
+ }
+
+.create button{
+ padding: 10px;
+ margin: 10px;
+ border: 1px solid black;
+ background-color: white;
+ border-radius: 5px;
+ width: 100px;
+}
+.create button:nth-child(1){
+  border: none;
+}
+
+
+/* main styling section */
