@@ -175,7 +175,9 @@ ul li a {
   position: absolute;
   top: 110px;
   left: 70rem;
+}
+  
+.lady-img img {
   width: 765px;
   height: 764px;
-  flex-shrink: 0;
 }
