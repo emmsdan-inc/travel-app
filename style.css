@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+
 body,
 h1,
 h2,
@@ -17,7 +20,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 47px; 
+   padding-top: 47px;  
 }
 
 #Logo {
@@ -128,7 +131,7 @@ main {
 .decor img {
   position: absolute;
   width: 385px;
-  height: 12px;
+  height: 10px;
   top: 80%;
   left: -30px;
 }
