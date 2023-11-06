@@ -1,14 +1,15 @@
 body {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background-color: #FFFFFF;
-  padding: 47px 110px 42px 140.92px;
 }
 .header {
+  height: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+  padding: 2.93rem 7.4rem;
 }
 .navbar {
   display: flex;
@@ -39,7 +40,4 @@ body {
   background: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-}
-.div1{
-  display: flex;
 }
