@@ -1,4 +1,64 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 10px; 
+  }
+
+  .logo-container {
+    max-width: 200px;
+  }
+
+  #logo {
+    width: 110.91px;
+    height: 33.99px;
+    left: 140.92px;
+    top: 48.7px;
+
+  }
+
+  .navbar li{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding: 0 30px;
+    color: #212832;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 17px;
+    
+    
+    }
+    
+    .navbar li a:hover{
+      color: #212832;
+      
+    }
+    
+    li,a,button{
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px;
+      color: #212832;
+      
+    }
+    
+    .signup.btn{
+      position: absolute;
+      width: 102px;
+      height: 40px;
+      left: 1119px;
+      top: 47px;
+      border-radius: 5px;
+      border: 1px;
+      color: #212832;
+    
+    }
+      
+   
