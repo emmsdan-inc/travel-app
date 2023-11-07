@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -74,6 +75,7 @@ padding-top: 0.01rem;
   gap: 1.5rem;
   margin-top: 7px;
 }
+
 #more_btn{
   width: 160px;
   height: 60px;
