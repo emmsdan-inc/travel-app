@@ -5,19 +5,16 @@ body {
   background-color: #FFFFFF;
 }
 .header {
-  height: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2.93rem 7.4rem;
+  padding: 2rem 5rem;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
 }
 .navbar ul {
   display: flex;
@@ -29,6 +26,8 @@ body {
 .navbar ul li a {
   text-decoration: none;
   font-size: 1.06rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   color: #212832;
 }
 .navbar-btn{
