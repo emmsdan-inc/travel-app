@@ -69,7 +69,7 @@ ul li a {
   background-color: #fff;
 }
 
-.heading {
+.content-heading {
   color: #DF6951;
   font-family: Poppins;
   font-size: 20px;
@@ -174,10 +174,11 @@ ul li a {
 .lady-img {
   position: absolute;
   top: 110px;
-  left: 70rem;
+  left:45rem;
 }
   
 .lady-img img {
   width: 765px;
   height: 764px;
+  
 }
