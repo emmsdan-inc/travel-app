@@ -1,4 +1,189 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0
+  padding: 0;
+  border: 0;
+  /* outline: 1px solid red !important; */
+}
+
+header {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'poppins', 'sans-serif';
+}
+
+.logo {
+  cursor: pointer;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 24px; 
+  font-size: 16px;
+}
+
+nav ul li a {
+  color: #212832;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: capitalize;
+
+}
+
+nav ul li a:hover {
+  color: #DF6951;
+  transition: .3s
+}
+
+.nav-btn {
+  background-color: white;
+  color: #212832;
+  border-style: solid;
+  border-width: thin;
+  border-color: #212832;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 12px;
+  transition: .3s;
+}
+
+.nav-btn:hover {
+  color: #DF6951;
+  border-color: #df6951;
+}
+
+.container {
+  position: relative;
+}
+
+.play {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #df6951;
+  box-shadow: 0px 15px 30px 0px #DF69514D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 90vh;
+  margin: 5%;
+}
+
+.main-wrapper {
+  width: 630px;
+  height: 535px;
+}
+
+.h6-section {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #df6951;
+  text-transform: uppercase;
+  margin-top: 33px;
+}
+
+.h1-section {
+  font-family: Volkhov;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-top: 24px;
+  color: #181e4b;
+}
+
+.decor {
+  position: relative;
+}
+
+.decor img {
+  position: absolute;
+  bottom: 11px;
+  left: -28px;
+}
+
+.wicket {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5e6282;
+  margin-top: 30px;
+  width: 477px;
+  height: 90px;
+}
+
+.demo {
+  display: flex;
+  width: 379px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.more {
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 0px;
+  background-color: #f1a501;
+  box-shadow: 0px 20px 35px 0px #f1a50126;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.more:hover {
+  background-color: transparent;
+  border: 1px solid #df6951;
+  color: #df6951;
+}
+
+.play-demo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 165px;
+  height: 52px;
+}
+
+.image {
+  width: 765px;
+  height: 100%;
+}
+
+.image img {
+  height: 100%;
 }
