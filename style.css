@@ -1,4 +1,131 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 55px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav #nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  max-width: 600px;
+}
+nav #nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav #nav-items a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--1st, #212832);
+}
+nav .nav-logo-container {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+nav .nav-logo-container img {
+  width: 100%;
+}
+nav .nav-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#nav-items .login-button {
+  border: none;
+  color: var(--1st, #212832);
+  font-family: Google Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: white;
+  text-transform: capitalize;
+}
+#nav-items .sign-up-button {
+  color: var(--1st, #212832);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: white;
+  font-size: 17px;
+  border: 1px solid#212832;
+  text-transform: capitalize;
+  flex-shrink: 0;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.demo-info-container {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin-top: 20px;
+  gap: 30px;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.info-btn {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f1a501;
+  flex-shrink: 0;
+}
+.play-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  fill: white;
+  border: none;
+  border-radius: 50%;
+  background-color: #df6951;
+
+  flex-shrink: 0;
+}
+.play-btn svg {
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+  width: 20px;
+  height: 20px;
+}
+.play-demo {
+  color: var(--text-color, #686d77);
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
