@@ -1,4 +1,38 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  height: 100vh;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+ 
+li a {
+  color: #212832;
+  font-family: Noto Sans;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.signup {
+  border: 1px solid #212832;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
