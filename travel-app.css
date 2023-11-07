@@ -40,3 +40,8 @@ body {
     height: 30px;
     width: 80px;
 }
+
+a {
+    text-decoration: none;
+    color: #343131;
+}
