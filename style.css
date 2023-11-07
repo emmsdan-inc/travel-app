@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 25px;
 }
 ul{
   list-style: none;
@@ -41,7 +42,6 @@ img{
 }
 .content{
   flex: 1;
-  margin-top: 35px;
 }
 .content h2{
 color: #DF6951;
@@ -57,7 +57,7 @@ font-size: 84px;
 font-weight: 700;
 line-height: 89px; /* 105.952% */
 letter-spacing: -3.36px;
-margin: 0 auto;
+margin: 0;
 position: relative;
 }
 .paint{
@@ -132,6 +132,7 @@ cursor: pointer;
   nav ul {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   nav ul li {
@@ -140,10 +141,22 @@ cursor: pointer;
   .flex{
     flex-direction: column;
   }
+  .content h1{
+    font-size: 80px;
+  }
+  .content p{
+    width: 100%;
+    font-size: 16px;
+  }
   .btn-container a{
     font-size: 14px;
+    padding: 10px 16px;
   }
   .btn-container button{
     font-size: 14px;
   }
+  .btn-container button svg{
+  width: 80px;
+  height: 80px;
+}
 }
