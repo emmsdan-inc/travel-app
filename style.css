@@ -2,3 +2,44 @@ body {
   margin: 0;
   padding: 0
 }
+
+
+.header-list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end; 
+  flex-direction: row;
+  gap: 8px;
+  color: var(--1st, #212832);
+  font-family: Google Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 40px;
+}
+
+#logo{
+  width: 114.912px;
+  height: 33.994px;
+  flex-shrink: 0;
+}
+
+#heading{
+color: #DF6951;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-left: 110px; 
+padding-top: 80px;
+}
+
+
+#sign{
+  width: 102px;
+  height: 40px;
+  flex-shrink: 0;
+}
