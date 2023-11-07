@@ -23,7 +23,7 @@ ul {
   align-items: center;
   gap: 50px;
 }
- 
+
 li a {
   color: #212832;
   font-family: Noto Sans;
@@ -35,4 +35,86 @@ li a {
   border: 1px solid #212832;
   border-radius: 5px;
   padding: 5px 15px;
+}
+h2 {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h1 {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px; /* 105.952% */
+  letter-spacing: -3.36px;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+}
+.line {
+  position: relative;
+  z-index: 1;
+}
+.line::after {
+  content: "";
+  background-image: url("./Decore.svg");
+  background-size: contain;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 78px;
+  right: -80px;
+  z-index: -1;
+  padding: 2px 50px;
+}
+p {
+  color: #5e6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  width: 78%;
+}
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0;
+}
+.buttoncontainer a {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  background: #f1a501;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.buttoncontainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #686d77;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  background: none;
+  border: none;
+}
+.buttoncontainer svg {
+  margin-top: 20px;
+}
+.details {
+  flex: 1;
+}
+.ladyimage {
+  flex: 1.2;
+}
+.ladyimage img {
+  max-width: 100%;
 }
