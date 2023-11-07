@@ -55,7 +55,7 @@ nav .but {
 }
 
 .text-1{
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
@@ -72,7 +72,7 @@ padding-bottom: 12px;
     height: 267px;
     top: 271px;
     left: 150px;
-    font-family: Volkhov;
+    font-family: 'Volkhov', serif;
     font-size: 84px;
     font-weight: 700;
     line-height: 89px;
@@ -83,7 +83,7 @@ padding-bottom: 12px;
 
 .text-3{
   margin-top: -30px;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #5E6282;
 }
@@ -120,7 +120,7 @@ padding-bottom: 12px;
   left: 148px;
   border-radius: 10px;
   margin-right: 44px;
-  font-family: Google Sans;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
@@ -145,7 +145,7 @@ padding-bottom: 12px;
 }
 
 .text-4{
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   color: #686D77;
   margin-left: 15px;
