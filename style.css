@@ -4,6 +4,44 @@ body {
 
 }
 
+/* HEADER */
+
+.header {
+  position: relative;
+  padding: 25px 100px 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav-links {
+  padding: 25px 0;
+}
+.nav-links li{
+ display: inline-block;
+ margin: 0 40px;
+
+}
+.nav-links li a {
+  text-decoration: none;
+  color: var(--1st, #212832);
+  font-family: Google Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  border-radius: 5px;
+  border: 1px solid var(--1st, #212832);
+  padding: 10px 30px;
+}
+
+/* Main Section */
 
 .container {
 display: flex;
@@ -16,7 +54,6 @@ gap: 10rem;
 
 .hero-section{
 background-color: white;
-margin-top: 112px;
 margin-left: 100px;
 margin-right: 110px;
 }
@@ -104,5 +141,5 @@ line-height: normal;
 
 .hero-banner {
   position: relative;
-  top: -50px;
+  top: -45px;
 }
