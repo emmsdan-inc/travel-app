@@ -57,7 +57,8 @@ font-size: 84px;
 font-weight: 700;
 line-height: 89px; /* 105.952% */
 letter-spacing: -3.36px;
-margin: 0;
+margin-top: 0;
+margin-bottom:0 ;
 position: relative;
 }
 .paint{
