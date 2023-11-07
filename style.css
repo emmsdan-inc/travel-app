@@ -1,8 +1,8 @@
-
 body {
   margin: 0;
   padding: 0;
 }
+
 /* The navigation style */
 .top-nav {
   display: flex;
@@ -31,9 +31,10 @@ body {
   font-weight: 400;
   line-height: normal;
   padding-top: 30px;
-  
-  
+
+
 }
+
 .nav-item a {
   height: 40px;
   padding: 15px 0px;
@@ -68,7 +69,6 @@ a .login {
 /* Hero style */
 .cover-page {
   display: flex;
-
   justify-content: flex-end;
   align-items: center;
   width: 1440px;
