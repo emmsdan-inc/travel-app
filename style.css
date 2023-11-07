@@ -2,3 +2,26 @@ body {
   margin: 0;
   padding: 0
 }
+.container{ display: flex;
+position: relative;}
+  
+img{ position:absolute;
+  margin-left: -20px;
+  flex: 1;
+}
+h1{font-size: small;
+  padding-left: 10%;
+  
+  
+  
+  
+  
+}
+.heading{font-size: xx-large;
+  padding-left: 10%;
+  color:darkslateblue;
+  text-align: justify;
+}
+.text{ font-size: x-small;
+padding-left:120px ;
+}
