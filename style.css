@@ -1,47 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap');
 
-body{
+body {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-.navigation{
-  width: 90%;
+
+#container {
   display: flex;
-  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
   align-items: center;
-  margin:0 auto;
 }
 
-  #logo {
-    width: 115px;
-    height: 34px;
-    flex-shrink: 0; 
-  }
-
- ul{
-list-style: none;
-display: flex;
-gap: 25px;
-align-items: center;
+.text-heading {
+  color: #DF6951;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
-ul li a{
-  text-decoration: none;
-  color: #212832;
-  size: 18px;
-  font-family: 'Open Sans', sans-serif;
+.heading {
+  color: #181E4B;
+  font-family: Volkhov;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -6px;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+.red-dash {
+  position: absolute;
+  top: -20px;
+  left: 275px;
+  z-index: -1;
+  width: 400px;
+}
+
+.description {
+  color: #5E6282;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
   font-weight: 500;
-  cursor:pointer;
-  
-button.sign-up{
-  padding: 10px;
-  width: 80px;
-  border: 1px solid #212832;
-  border-radius: 5px;
-  background: #fff;
-  color: #212832;
-  size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  line-height: 20px;
+  width: 477px;
+  margin-bottom: 30px; 
+}
+
+.text-cta {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#container .btn-1 {
+  width: 140px;
+  height: 50px;
+  background: #F1A501;
+  border-radius: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 15px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
+  border: none;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+}
+
+#container .text-cta .btn-2 {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #df6951 ;
+  color: white;
+  border: none;
+}
+
+#container .text-cta .btn-2 svg {
+  fill:#fff ;
+  width: 15px;
+}
+
+.play-demo {
+  color: #686D77;
+  font-family: Open sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+img {
+  width: 700px;
+  height: 700px;
 }
