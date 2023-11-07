@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap');
 
 body{
   margin: 0;
@@ -26,7 +26,6 @@ gap: 25px;
 align-items: center;
 }
 
-
 ul li a{
   text-decoration: none;
   color: #212832;
@@ -34,8 +33,7 @@ ul li a{
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   cursor:pointer;
-}
-
+  
 button.sign-up{
   padding: 10px;
   width: 80px;
