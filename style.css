@@ -1,13 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
   width: 1440px;
   height: 911px;
-  padding: 47px 150px 42px 170.92px;
+  padding: 17px 150px 42px 140.92px;
   justify-content: flex-end;
   align-items: center;
 }
+
 
 .flex {
   display: flex;
@@ -68,6 +68,7 @@ nav {
   justify-content: space-around;
   margin-top: 20px;
   min-height: 8vh;
+  width: 80%;
 }
 
 .nav-list {
