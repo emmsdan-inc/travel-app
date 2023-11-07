@@ -41,6 +41,7 @@ text-transform: uppercase;
 margin-bottom: 10px;
 margin-top: 20%;
 }
+
 #p1{
 color: var(--1st, #181E4B);
 font-family: Volkhov;
@@ -52,6 +53,7 @@ letter-spacing: -3.36px;
 margin-top: 20px;
 margin-bottom: 8px;
 }
+
 #p2{
 color: #5E6282;
 font-family: Poppins;
@@ -63,9 +65,8 @@ width: 477px;
 margin-bottom: 1px;
 margin-top: 10%;
 padding-top: 0.01rem;
-
-
 }
+
 #button_content{
   display: flex;
   justify-items: center;
@@ -93,6 +94,7 @@ font-weight: 500;
 line-height: normal;
 margin-bottom: 20px;
 }
+
 #redbtn{
   width: 120px;
   height: 120px;
@@ -108,6 +110,7 @@ font-weight: 500;
 line-height: normal;
 margin-bottom: 20px;
 }
+
 #underline{
   position: absolute;
   width: 370px;
