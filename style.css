@@ -114,7 +114,6 @@ aside {
   background: var(--yellow, #f1a501);
   box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
   border: none;
-  /* padding: 20px 25px; */
   width: 170px;
   height: 60px;
 }
