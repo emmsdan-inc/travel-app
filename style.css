@@ -2,16 +2,15 @@ body {
   margin: 0;
   padding: 0;
   width: 1440px;
-  height: 911px;
-  padding: 17px 150px 42px 140.92px;
+  padding: 17px 150px 42px 150px;
   justify-content: flex-end;
-  align-items: center;
+  
+ 
 }
 
 
 .flex {
-  display: flex;
-  
+  display: flex;  
 }
 
 .flex-header {
@@ -65,18 +64,16 @@ h6 {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
-  min-height: 8vh;
-  width: 80%;
+  
 }
 
 .nav-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
   box-sizing: border-box;
-  width: 30%;
   
 }
 
