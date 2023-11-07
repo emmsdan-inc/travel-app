@@ -1,4 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Volkhov:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 110px 42px 140.92px;
+}
+
+header {
+  height: 5rem;
+}
+
+nav {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 15rem;
+  align-items: center;
+  font-family: Noto Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+li:hover {
+  text-align: center;
+  width: 120px;
+  line-height: 30px;
+  border: 1px solid #020202;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.desc {
+  width: 500px;
+}
+
+h4 {
+  color: #DF6951;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -4rem;
+}
+
+h1 {
+  color: #181E4B;
+  font-family: Volkhov;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -3.36px;
+  margin-bottom: -0.5rem;
+}
+
+.decore {
+  position: absolute;
+  width: 250px;
+  z-index: -1;
+  left: 24rem;
+  top: 15.5rem;
+}
+
+.description {
+  width: 400px;
+  color: #5E6282;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+aside {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  width: 170px;
+  height: 60px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: #F1A501;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+}
+
+.play {
+  width: 52px;
+  height: 40px;
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.text {
+  color: #686D77;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.lady {
+  width: 600px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px 42px 80px;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  h1 {
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+    margin-bottom: -0.5rem;
+  }
+
+  .decore {
+    position: absolute;
+    width: 210px;
+    z-index: -1;
+    left: 16.5rem;
+    top: 15rem;
+  }
 }
