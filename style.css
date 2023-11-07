@@ -2,9 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
 }
+/* The navigation style */
 .top-nav {
   display: flex;
   align-items: center;
@@ -63,5 +62,148 @@ a button {
 
 a .login {
   padding-left: 400px;
->>>>>>> e09dfaa709c809f9c2d4a9a5e3af105bb0d9cfa6
+}
+
+
+/* Hero style */
+.cover-page {
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  width: 1440px;
+  height: 911px;
+  background-color: white;
+  padding: 0px 110px 42px 140.92px;
+
+}
+
+/* Group of items in the hero */
+.hero-content {
+  display: flex;
+  width: 1182px;
+  height: 764px;
+  left: 7.08px;
+  top: 58px;
+  position: relative;
+}
+
+/* The left side of the page */
+.desc {
+  /* display: flex; 
+  */
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 1.8rem; */
+  width: 630px;
+  height: 535px;
+}
+
+.desc .hero-subheader {
+  color: #DF6951;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 112px;
+}
+
+.desc .decore {
+  width: 385px;
+  height: 12px;
+  left: 215px;
+  top: 236px;
+  position: absolute;
+
+}
+
+.desc .hero-header {
+  color: var(--1st, #181E4B);
+  font-family: Volkhov;
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -3.36px;
+  z-index: 1;
+  /* position: absolute; */
+}
+
+.desc .hero-text {
+  color: #5E6282;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 477px;
+}
+
+.Cta {
+  display: flex;
+  justify-content: space-between;
+  width: 379px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.Cta button {
+  width: 170px;
+  border-radius: 10px;
+  background-color: #F1A501;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+
+  color: #FFF;
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+
+.Cta .play-demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 696px;
+  left: 362px;
+  width: 165px;
+  height: 52px;
+}
+
+.play-demobox {
+
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  background-color: #DF6951;
+  border-radius: 50%;
+  position: relative;
+}
+
+.play-demobox img {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 7px;
+  /* border-radius: 50%; */
+}
+
+
+.play-demo p {
+  color: #686D77;
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* The right side of the page */
+.aside-img {
+  width: 765px;
+  height: 764px;
+  left: 417px;
+  position: absolute;
 }
