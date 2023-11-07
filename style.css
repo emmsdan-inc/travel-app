@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  
 }
 
 body {
@@ -13,6 +13,8 @@ body {
   padding: 47px 110px 42px 140.92px;
   font-size: 16px;
   color: #212832;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
 }
 
 header {
@@ -50,25 +52,25 @@ header {
 }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position:relative;
 }
 
 .info {
-  width: 55%;
-  padding: 80px 0 70px 0;
+  padding: 90px 0 ;
+  width: 50%;
 }
 
 figure {
+  position: absolute;
   width: 60%;
-  margin-left: -149px;
-  justify-items: left;
+  top: -90px;
+  right: 0%;
 }
-
-.pix {
+ .pix {
   width: 100%;
-}
+  height:48rem;
+  object-fit: cover;
+} 
 
 p {
   color: #df6951;
@@ -79,7 +81,7 @@ p {
 
 h1 {
   color: #181e4b;
-  font-size: 5.23rem;
+  font-size: 4.5rem;
   font-weight: 700;
   font-family: "Volkhov", sans-serif;
   line-height: 79px;
@@ -91,11 +93,10 @@ h1 {
 .decor {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: -90px;
 }
 small {
   color: #5e6282;
-  font-family: Poppins;
   font-weight: 500;
   margin-bottom: 0px;
 }
@@ -113,9 +114,10 @@ aside {
   background: var(--yellow, #f1a501);
   box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
   border: none;
-  padding: 20px 25px;
+  /* padding: 20px 25px; */
+  width: 170px;
+  height: 60px;
 }
-
 .play {
   display: flex;
   align-items: center;
