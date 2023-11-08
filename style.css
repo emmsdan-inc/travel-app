@@ -2,3 +2,109 @@ body {
   margin: 0;
   padding: 0
 }
+
+
+/* my main section start here */
+.main {
+  overflow: hidden;
+  padding: 0 12%;
+}
+/* this will flex the main container  */
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  height: 100%;
+  margin-top: -5rem;
+}
+
+
+.image-content img {
+  margin-top: -0.5rem;
+  margin-left: 3rem;
+}
+
+.main-container .content .text1 {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.main-container .content .text1 h2 {
+  color: #DF6951;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  margin-top: 6rem;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.text2 {
+  margin-top: -7rem;
+}
+
+.main-container .content .text2 h1 {
+  color: var(--1st, #181E4B);
+  font-family: 'Volkhov', serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99px;
+  margin-top: 9rem;
+  letter-spacing: -3.36px;
+}
+
+.text2 .image-decore {
+  position: absolute;
+  z-index: -1;
+  top: 24rem;
+  left: 31rem;
+
+
+.main-container .image-container img {
+  width: 765px;
+  height: 764px;
+  flex-shrink: 0;
+}
+
+.image-text .button {
+  display: flex;
+  margin-top: -1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-text .button button {
+  padding: 0.3em 4.5%;
+  border-radius: 10px;
+  border: none;
+  background: var(--yellow, #F1A501);
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+}
+
+.image-text .button button p {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.image-text .button img {
+  margin-top: 1rem;
+}
+
+.image-text .button p {
+  color: var(--text-color, #686D77);
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
