@@ -27,7 +27,7 @@ body{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 
@@ -153,7 +153,7 @@ body{
     background-color: #df6951 ;
     color: white;
     border: none;
-    box-shadow: 0px 20px 35px 10px rgba(	248, 221, 215, 0.8);
+    box-shadow: 0px 20px 35px 20px rgba(	248, 221, 215, 0.9);
     
 }
 
