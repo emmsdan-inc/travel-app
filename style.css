@@ -55,6 +55,7 @@ main .container .hero-section {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding-top: 1%;
 }
 main .container .hero-section .hero-text {
   width: 57%; 
