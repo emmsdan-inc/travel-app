@@ -1,4 +1,44 @@
-body {
-  margin: 0;
-  padding: 0
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 6rem;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--1st, #212832);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header nav button {
+  padding: 1.2em 2rem;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  color: #212832;
+  font-weight: 600;
+  background-color: white;
+  border: #212832 solid 1px;
 }
