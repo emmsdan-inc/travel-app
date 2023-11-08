@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap"
       rel="stylesheet"
     />
+
     <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -17,54 +18,58 @@
     <!-- Do your work below this comment -->
     <div class="container">
       <div class="jadoo">
-        <header>
+        <header class="header">
+          <img class="logo" src="logo.svg" alt="Jadoo Travels Logo" />
+          <nav class="navigation">
+            <a class="nav-link" href="#" target="_blank">Destination</a>
 
+            <a class="nav-link" href="#" target="_blank">Hotels</a>
+            <a class="nav-link" href="#" target="_blank">Flights</a>
+            <a class="nav-link" href="#" target="_blank">Bookings</a>
+            <button class="nav-link nav-login">Login</button>
+            <button class="nav-link nav-button">Sign up</button>
+          </nav>
         </header>
         <main>
           <section class="hero">
-           <div class="hero-text">
-            <h1>Best Destinations around the world</h1>
-          <h2 class="travel">
-            Travel, <span class="red-line">enjoy</span> and live a new and full
-            life
-          </h2>
-          <p class="hero-para">
-            Built Wicket longer admire do barton vanity itself do in it.
-            Preferred to sportsmen it engrossed listening. Park gate sell they
-            west hard for the.
-          </p>
-          <div class="cta">
-            <div class="more">
-              <a href="#">Find out more</a>
+            <div class="hero-text">
+              <p class="hero-caption">Best Destinations around the world</p>
+              <h1 class="travel">Travel, enjoy and live a new and full life</h1>
+              <p class="hero-para">
+                Built Wicket longer admire do barton vanity itself do in it.
+                Preferred to sportsmen it engrossed listening. Park gate sell
+                they west hard for the.
+              </p>
+              <div class="cta">
+                <a class="more" href="#">Find out more</a>
+
+                <button class="play-demo">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24Zm36.44,110.66-48,32A8.05,8.05,0,0,1,112,168a8,8,0,0,1-8-8V96a8,8,0,0,1,12.44-6.66l48,32a8,8,0,0,1,0,13.32Z"
+                    ></path>
+                  </svg>
+
+                  <span class="demo">Play Demo</span>
+                </button>
+              </div>
             </div>
- 
-            <button class="play-demo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                fill="#000000"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24Zm36.44,110.66-48,32A8.05,8.05,0,0,1,112,168a8,8,0,0,1-8-8V96a8,8,0,0,1,12.44-6.66l48,32a8,8,0,0,1,0,13.32Z"
-                ></path>
-              </svg>
- 
-              <span class="demo">Play Demo</span>
-            </button>
-          </div>
-
-           </div> 
-           <div class="hero-image">
-            <img src="lady.svg" alt="An excited female traveller carrying a backpack and sitting on a travel box">
-
-           </div>
+            <div class="hero-image">
+              <img
+                class="lady"
+                src="lady.svg"
+                alt="An excited female traveller carrying a backpack and sitting on a travel box"
+              />
+            </div>
           </section>
         </main>
-
       </div>
-
     </div>
     <!-- Don't touch below this till week 7 -->
     <footer></footer>
