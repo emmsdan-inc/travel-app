@@ -8,7 +8,8 @@ body {
 header {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 50px;
     align-items: center;
     top: 0;
     right: 0;
@@ -16,11 +17,15 @@ header {
 
 .logo {
     padding-left: 150px;
+    margin-right: 100px;
     max-width: 100%;
+    
 }
 
 .navlist {
     display: flex;
+    gap: 30px;
+    
 }
 
 .navlist li {
@@ -32,7 +37,7 @@ header {
     font-style: normal;
     font-weight: 400;
     position: relative;
-    
+  
 }
 
 button {
@@ -42,7 +47,11 @@ button {
     border-radius: 5px;
     font-family: Google Sans;
     font-weight: 500;
+    margin-left: 5px;
+    font-size: 17px;
+
 }
+
 
 .main_container {
     width: 100%;
@@ -116,6 +125,7 @@ h6 {
     align-content: center;
     gap: 5px ;
     margin-top: 7px;
+
 }
 
 #more_btn {
@@ -134,14 +144,16 @@ h6 {
     font-weight: 500;
     line-height: normal;
     margin-bottom: 20px;
+    margin-right: 25px;
 }
 
 #redbtn {
     width: 120px;
     height: 120px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     justify-self: center;
     margin-right: 10px;
+    margin-left: 5px;
 }
 
 span {
