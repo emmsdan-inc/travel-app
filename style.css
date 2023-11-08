@@ -1,51 +1,10 @@
-/* .nav-list li a {
-  margin-left: 20px;
-  color:  #212832 !important;
-font-family: Google Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: none;
-}
-.nav-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-
-
-  
-}
-header {
-display: flex;
-
-}
-.signup {
-  width: 102px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid var(--1st, #212832);
-padding-left: 22px;
-padding-right: 22px;
-padding-top: 9px;
-padding-bottom: 9px;
-}
-nav {
-  flex: 1;
-}
-.logo {
-  padding-right: 200px;
-} */
-
-
 body {
   margin: 0;
   padding: 0;
 }
 nav {
   height: 60px;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,15 +16,15 @@ nav ul li {
 }
 nav ul li a {
    text-decoration:none ;
-   padding: 0 15px;
+   padding: 0 20px;
    letter-spacing: 0em;
    text-align: left;
-   margin-left: 58px;
+   margin-left: 35px;
    color: var(--1st, #212832);
    font-family: sans-serif;
    font-size: 17px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 500;
    line-height: normal;
    
 }
@@ -76,7 +35,7 @@ nav button {
 width: 102px;
 height: 40px;
 top: 47px;
-left: 1119px;
+
 border-radius: 5px;
 border: 1px solid #212832;
 font-family: sans-serif;
@@ -85,8 +44,8 @@ font-weight: 500;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: center;
-margin-right: 100px;
-
+margin-right: 220px;
+background-color: white;
 
 
 }
@@ -150,7 +109,7 @@ dl{
   font-size: 16px;
   line-height: 30px;
   color: #5E6282;
-  font-weight: 200;
+  font-weight: 500;
 font-family: 'Abril Fatface', serif;
 font-family: 'Merriweather', serif;
 font-family: 'Poppins', sans-serif;
@@ -184,18 +143,7 @@ font-family: 'Work Sans', sans-serif;
 
 }
 
-/* .down img{
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-left: 35px;
-  color: white;
-  background-color: #DF6951;
-  flex-shrink: 0;
-  box-shadow: inset;
-  box-shadow:  0px 20px 35px 0px rgba(240, 164, 1, 0.15);
-} */
+
 .down span{
   color: var(--text-color, #686D77);
   font-family: Poppins;
@@ -209,13 +157,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Space Mono', monospace;
 font-family: 'Work Sans', sans-serif;
 }
-/* .down svg{
-position: absolute;
-height: 60px;
-width: 60px;
-flex-shrink: 0;
-margin-left: 50px;
-} */
+
 .down img {
   height: 80px;
   width: 80px;
