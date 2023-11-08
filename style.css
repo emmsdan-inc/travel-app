@@ -105,10 +105,12 @@ h1 {
   color: #686d77;
 }
 .more-action {
-  background-color: #f1a501;
+  background-color: rgb(240, 164, 0);
   color: #fff;
   border-radius: 10px;
   font-size: 18px;
   padding: 10px 18px;
   border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(240, 164, 0, 0.5)
 }
