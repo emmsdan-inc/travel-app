@@ -1,4 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Open Sans", "Roboto", "Volkhov", sans-serif;
+}
+
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  height: 911px;
+  padding: 42px 110px 47px 140.92px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jadoo {
+  width: 1189.08px;
+  height: 822px;
+  flex-shrink: 0;
+}
+
+/* Header Section */
+header {
+  width: 1080px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.logo {
+  width: 115px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-right: 222px;
+}
+
+.navigation {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button,
+.nav-login,
+.nav-link:link,
+.nav-link:visited {
+  color: #212832;
+  display: inline-block;
+  height: 22px;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #c58666;
+}
+.nav-link:active {
+  color: #d06b3f;
+  font-weight: 500;
+}
+
+.nav-login {
+  background-color: white;
+  border: none;
+}
+.nav-login,
+.nav-button {
+  font-weight: 500;
+}
+
+.nav-button {
+  width: 102px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #212832;
+}
+.nav-button:hover {
+  background-color: rgb(253, 247, 254);
+}
+.nav-button:active {
+  background-color: rgb(239, 227, 247);
+}
+
+/* Main section */
+
+.hero {
+  width: 1182px;
+  height: 764px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-image {
+  width: 765px;
+  height: 764px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  margin-left: -172px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 630px;
+  height: 535px;
+  flex-shrink: 0;
+}
+
+.hero-caption {
+  color: #df6951;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 410px;
+  height: 30px;
+  margin-bottom: 24px;
+}
+
+.travel {
+  color: #181e4b;
+  font-family: "Volkhov";
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -3.36px;
+  width: 545px;
+  height: 267px;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+/* This is to include the red line under the enjoy word in the hero section */
+.travel::after {
+  content: " ";
+  position: absolute;
+  background-image: url(Decore.png);
+  background-repeat: no-repeat;
+  background-size: 375px 12px;
+  width: 385px;
+  height: 12px;
+  padding: 3px 40px;
+  left: 50%;
+  top: 71px;
+  margin-left: -27px;
+  z-index: -1;
+  transform: skew(-20deg);
+}
+
+.hero-para {
+  color: #5e6282;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 34px;
+  width: 477px;
+  height: 90px;
+}
+
+.cta {
+  width: 379px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more {
+  width: 170px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1a501;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.more:active {
+  background: #f1a101;
+}
+.play-demo {
+  width: 165px;
+  height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+}
+
+/* Styling button states */
+.play-demo:hover {
+  background-color: #f9eee776;
+  padding: 5px;
+  border-radius: 8px;
+}
+.play-demo:active {
+  background-color: #fbd8c576;
+}
+
+svg {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  fill: #df6951;
+}
+
+.demo {
+  color: #686d77;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
