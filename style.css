@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-top: 27px;
+  padding-top: 7px;
   padding-left: 140px;
   padding-right: 110px;
   justify-content: space-between;
@@ -76,9 +76,9 @@ a .login {
   justify-content: flex-end;
   align-items: center;
   width: 80vw;
-  height: 80vh;
+  height: 85vh;
   background-color: white;
-  padding: 0px 110px 42px 140px;
+  padding: 0px 110px 22px 140px;
 
 }
 
@@ -87,7 +87,7 @@ a .login {
   display: flex;
   align-items: center;
   width: 80vw;
-  height: 80vh;
+  height: 85vh;
   position: relative;
 }
 
@@ -97,27 +97,28 @@ a .login {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  width: 55%;
-  height: 70vh;
+  width: 50%;
+  height: 76vh;
 }
 
 .desc .hero-subheader {
   color: #DF6951;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
   margin-top: 20px;
+  padding-bottom: 13px;
 
 }
 
 .desc .decore {
   width: 385px;
   height: 12px;
-  left: 230px;
-  top: 146px;
+  left: 212px;
+  top: 151px;
   position: absolute;
 
 }
@@ -125,7 +126,7 @@ a .login {
 .desc .hero-header {
   color: #181E4B;
   font-family: Volkhov;
-  font-size: 75px;
+  font-size: 69px;
   font-weight: 700;
   line-height: 70px;
   letter-spacing: -1.36px;
@@ -135,35 +136,41 @@ a .login {
 .desc .hero-text {
   color: #5E6282;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 25px;
   width: 477px;
   word-wrap: break-word;
+  padding-top: 13px;
 }
 
 .Cta {
   display: flex;
-  justify-content: space-between;
   width: 379px;
   height: 60px;
   border-radius: 10px;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 46px;
 }
 
 .Cta button {
-  width: 170px;
+  /* width: 170px; */
+  width: 142px;
+  height: 45px;
   border-radius: 10px;
   background-color: #F1A501;
   box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
-
   color: #FFF;
   text-align: center;
-  font-family: Google Sans;
-  font-size: 18px;
+  font-family: Poppins, Google Sans;
+  font-size: 15px;
   font-weight: 500;
   border: none;
 }
+
 
 .Cta .play-demo {
   display: flex;
@@ -171,41 +178,34 @@ a .login {
   justify-content: space-between;
   top: 696px;
   left: 362px;
-  width: 165px;
-  height: 52px;
+  width: 148px;
+  height: 42px;
 }
 
-.play-demobox {
-  align-items: center;
-  width: 52px;
-  height: 52px;
-  background-color: #DF6951;
+
+.play-demobox .fa-circle-play {
+  font-size: 42px;
+  color: #df6951;
+  box-shadow: 0px 10px 35px 0px #e6ab9e;
   border-radius: 50%;
-  position: relative;
-}
-
-.play-demobox img {
-  width: 52px;
-  height: 52px;
-  position: absolute;
-  top: 7px;
 }
 
 .play-demo p {
   color: #686D77;
   font-family: 'Poppins';
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 /* The right side of the page */
 .aside-box {
-  width: 45%;
-  left: 510px;
+  width: 50%;
+  left: 440px;
+  height: 85vh;
   position: absolute;
 }
 
 .aside-box img {
-  width: 490px;
-  height: 500px;
+  width: 650px;
+  height: 565px;
 }
