@@ -15,9 +15,11 @@ h2,
   justify-content: center;
 }
 
+/* ========== style for header starts here ========== */
+
 nav {
   display: flex;
-  /* align-items: center; */
+  width: 90%;
   justify-content: space-between;
    padding-top: 47px;  
 }
@@ -30,7 +32,6 @@ nav {
 
 .nav-items {
   display: flex;
-  /* flex-wrap: wrap;  */
   align-items: center;
   gap: 75px;
 }
@@ -77,9 +78,10 @@ nav {
   cursor: pointer;
 }
 
+/* ========== style for main starts here ========== */
+
 main {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;  
   justify-content: space-between;
 }
@@ -89,7 +91,6 @@ main {
   flex-direction: column;
   justify-content: space-between;
   height: 535px;
-  /* gap: 30px; */
   
 }
 
@@ -129,7 +130,7 @@ main {
 
 .lady{
   width: 765px;
-  height: 764px;
+  height: 650px;
 }
 
 .decor {
