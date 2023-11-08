@@ -6,6 +6,117 @@ body {
   padding-top: 45px;
   padding-bottom: 45px;
 }
+
+.main{
+  display: flex;
+  position: relative;
+}
+
+svg{
+  width: 850px;
+  height: 764px;
+  position: absolute;
+  top: 30px;
+  left: 565px;
+  flex-shrink: 0;
+}
+#Decore{
+  position: absolute;
+  width: 370px;
+  height: 10px;
+  flex-shrink: 0;
+  top: 252px;
+  margin-left: 400px;
+  z-index: -1;
+}
+
+p{
+  width: 410px;
+  height: 30px;
+  position: relative;
+  top: 125px;
+  left: 165px;
+  line-height: normal;
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #DF6951;
+
+}
+h2{
+  width: 545px;
+  height: 267px;
+  position: relative;
+  top: 75px;
+  left: 160px;
+  font-size: 75px;
+  font-family: 'Volkhov', serif;
+  color: #181E4B;
+  line-height: 89px; 
+  letter-spacing: -4%;
+
+}
+dl{
+  width: 477px;
+  height: 90px;
+  position: relative;
+  top: 35px;
+  left: 160px;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #5E6282;
+}
+
+.down{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+.down button{
+  width: 140px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F1A501;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  box-shadow: inset;
+  box-shadow:  0px 20px 35px 0px rgba(240, 164, 1, 0.15);
+
+}
+
+.down img{
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 35px;
+  color: white;
+  background-color: #DF6951;
+  flex-shrink: 0;
+  box-shadow: inset;
+  box-shadow:  0px 20px 35px 0px rgba(240, 164, 1, 0.15);
+}
+.down span{
+  color: var(--text-color, #686D77);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin-left: 10px;
+
+
+
 .nav-list li a {
   margin-left: 20px;
   color:  #212832 !important;
@@ -44,4 +155,5 @@ nav {
 }
 .logo {
   padding-right: 200px;
+
 }
