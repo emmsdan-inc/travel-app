@@ -13,7 +13,6 @@ h2,
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 100%; */
 }
 
 nav {
@@ -82,12 +81,16 @@ main {
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;  
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .text__section {
-  display: grid;
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 535px;
+  /* gap: 30px; */
+  
 }
 
 .text__section h2 {
@@ -122,6 +125,11 @@ main {
   color: #5e6282;
   width: 477px;
   height: 90px;
+}
+
+.lady{
+  width: 765px;
+  height: 764px;
 }
 
 .decor {
