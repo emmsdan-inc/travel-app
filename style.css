@@ -19,7 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  width: 1220px;
+  width: 1230.08px;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ button {
   font-weight: 400;
 }
 .login {
-  margin-left: 70px;
+  margin-left: 90px;
 }
 .cta {
   margin-right: 40px;
