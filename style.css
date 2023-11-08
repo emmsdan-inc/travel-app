@@ -2,14 +2,17 @@ body {
   margin: 0;
   padding: 0;
 }
-.top-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-top: 47px;
-  padding-left: 140px;
-  padding-right: 110px;
-  justify-content: space-around;
+
+ .top-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 27px;
+    padding-left: 140px;
+    padding-right: 110px;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80vw;
 }
 
 .logo {
@@ -19,26 +22,24 @@ body {
   padding-right: 140px;
 }
 
-
-.nav-item {
-  display: flex;
-  color: #212832;
-  font-size: 17px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 30px;
-  
-  
+ .nav-item {
+    display: flex;
+    align-items: center;
+    color: #212832;
+    font-size: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
 }
+
 .nav-item a {
-  height: 40px;
-  padding: 15px 0px;
-  margin: 0px 30px;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
+    flex: 1;
+    padding: 15px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
 
 a {
