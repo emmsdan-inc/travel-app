@@ -15,7 +15,7 @@ header {
 }
 
 .logo {
-    padding-left: 50px;
+    padding-left: 150px;
     max-width: 100%;
 }
 
@@ -26,18 +26,22 @@ header {
 .navlist li {
     list-style: none;
     text-decoration: none;
-    padding: 26px 30px;
+    padding: 26px 35px;
     font-family: Google Sans;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     position: relative;
+    
 }
 
 button {
-    padding: 5px 15px;
+    padding: 10px 20px;
     display: flex;
     margin-right: 20%;
+    border-radius: 5px;
+    font-family: Google Sans;
+    font-weight: 500;
 }
 
 .main_container {
@@ -110,13 +114,13 @@ h6 {
     align-items: center;
     text-align: center;
     align-content: center;
-    gap: 1.5rem;
+    gap: 5px ;
     margin-top: 7px;
 }
 
 #more_btn {
     width: 160px;
-    height: 60px;
+    height: 50px;
     color: #fff;
     flex-shrink: 0;
     border-radius: 10px;
@@ -137,6 +141,7 @@ h6 {
     height: 120px;
     flex-shrink: 0;
     justify-self: center;
+    margin-right: 10px;
 }
 
 span {
@@ -154,6 +159,6 @@ span {
     width: 370px;
     height: 12px;
     flex-shrink: 0;
-    top: 228px;
+    top: 158px;
     margin-left: 250px;
 }
