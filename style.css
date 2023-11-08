@@ -200,7 +200,7 @@ a .login {
 /* The right side of the page */
 .aside-box {
   width: 50%;
-  left: 440px;
+  left: 320px;
   height: 85vh;
   position: absolute;
 }
