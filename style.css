@@ -34,6 +34,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 75px;
+  width: 60%;
 }
 
 .nav-items a {
@@ -90,7 +91,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 535px;
+  height: 490px;
   
 }
 
@@ -106,7 +107,7 @@ main {
 }
 
 .hero__text {
-  font-size: 84px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 89px;
   letter-spacing: -0.04em;
