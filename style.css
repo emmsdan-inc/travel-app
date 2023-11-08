@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
 
 .header {
   position: relative;
-  padding: 25px 100px 0px;
+  padding: 25px 100px 25px;
 }
 
 nav {
@@ -29,16 +30,18 @@ nav {
 .nav-links li a {
   text-decoration: none;
   color: var(--1st, #212832);
-  font-family: Google Sans;
+  font-family: Roboto;
   font-size: 17px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 550;
   line-height: normal;
 }
 .btn {
   border-radius: 5px;
   border: 1px solid var(--1st, #212832);
   padding: 10px 30px;
+  font-weight: 550;
+  font-family: Poppins;
 }
 
 /* Main Section */
@@ -49,7 +52,7 @@ flex-direction: row;
 justify-content: space-between;
 height: 400px;
 position: relative;
-gap: 10rem;
+gap: 7rem;
 }
 
 .hero-section{
@@ -62,7 +65,7 @@ margin-right: 110px;
 font-family: Poppins;
 font-size: 12px;
 font-style: normal;
-font-weight: 700;
+font-weight: 800;
 line-height: normal;
 text-transform: uppercase;
 position: absolute;
@@ -73,10 +76,10 @@ top: 25px;
 .header-1 {
  color: var(--1st, #181E4B);
 font-family: Volkhov;
-font-size: 70px;
+font-size: 60px;
 font-style: normal;
 font-weight: 700;
-line-height: 89px; /* 105.952% */
+line-height: 85px; 
 letter-spacing: -3.36px;
 z-index: 1;
 position: absolute;
@@ -84,8 +87,8 @@ position: absolute;
 
 .has-before {
   position: absolute;
-  top: 105px;
-  left: 270px;
+  top: 100px;
+  left: 230px;
   z-index: -1;
 }
 
@@ -112,6 +115,14 @@ flex-shrink: 0;
   top: 350px;
   color: white;
   border: none;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
 }
 
 .wrapper {
@@ -141,5 +152,5 @@ line-height: normal;
 
 .hero-banner {
   position: relative;
-  top: -45px;
+  top: -50px;
 }
