@@ -7,6 +7,48 @@ body {
   padding: 0;
 }
 
+.navigation{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+ 
+#logo {
+  width: 115px;
+  height: 34px;
+  flex-shrink: 0;
+}
+ 
+ul{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+ 
+ul li a{
+  text-decoration: none;
+  color: #212832;
+  size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+ 
+button.sign-up{
+  padding: 10px;
+  width: 80px;
+  border: 1px solid #212832;
+  border-radius: 5px;
+  background: #fff;
+  color: #212832;
+  size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
 #container {
   display: flex;
   width: 90%;
