@@ -15,6 +15,15 @@ svg{
   left: 565px;
   flex-shrink: 0;
 }
+#Decore{
+  position: absolute;
+  width: 370px;
+  height: 10px;
+  flex-shrink: 0;
+  top: 241px;
+  margin-left: 400px;
+  z-index: -1;
+}
 
 p{
   width: 410px;
