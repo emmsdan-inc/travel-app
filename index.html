@@ -1,22 +1,103 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Jadoo Travels</title>
+    <title>Jadoo Travels</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link href="./style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+  <body>
     <!-- Do your work below this comment -->
     <header>
-      <h1>Best Destinations around the world</h1>
+      <nav>
+        <div class="nav-logo-container">
+          <img src="logo.svg" />
+        </div>
+
+        <div id="nav-items">
+          <ul>
+            <li>
+              <a href="destinations">destinations</a>
+            </li>
+            <li>
+              <a href="hotels">hotels</a>
+            </li>
+            <li>
+              <a href="flights">flight</a>
+            </li>
+            <li>
+              <a href="bookings">bookings</a>
+            </li>
+          </ul>
+
+          <div class="nav-btn-container">
+            <button class="login-button">login</button>
+            <button class="sign-up-button">sign up</button>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main></main>
+   
+    <main>
+      
+      <section class="sect-one">
+        <div class="hero">
+          <div>
+            <h1 class="textalign">Best Destinations around the world</h1>
+            <p id="peditor1">Travel, enjoy 
+              <br> and live a new 
+              <br> and full life
+            </p>
+            <div class="text-div"> 
+              <p id="lastpara">
+                Built Wicket longer admire do barton vanity itself do in it. 
+                <br> Preferred to sportsmen it engrossed listening. 
+                pork gate <br> sell they west hard for the.    
+              </p>
+              <div class="demo-info-container">
+                <button class="info-btn">find out more</button>
+        
+                <button class="play-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                    />
+                  </svg>
+                </button>
+                <p class="play-demo">Play demo</p>
+              </div>
+            </div>
+            <div id="underline">
+              <img src="Decore.png">
+            </div>
+          </div>
+          
+          <div>
+            <img src="lady.svg" id="imgeditor"/>
+          </div>  
+        </div>
+        
+      </section>
+    </main>
     <!-- Don't touch below this till week 7 -->
     <footer></footer>
-</body>
-
+  </body>
 </html>
