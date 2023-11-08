@@ -2,3 +2,117 @@ body {
   margin: 0;
   padding: 0
 }
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+main {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 90vh;
+}
+
+a {
+  text-decoration: none;
+  color: #212832;
+}
+
+.desc {
+  position: relative;
+  bottom: 50px;
+  width: 572px;
+  height: 445px;
+  margin: 129px 0 0 95px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: bold;
+  color: #DF6951;
+  text-transform: uppercase;
+}
+
+.heading{
+  font-size: 67px;
+  line-height: 65px;
+  color: #181E4B;
+  font-family: Volkhov;
+  margin: 10px 0 0 0;
+  background-image: url(/Images/Decore-1.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 190px;
+  background-position-y: 54px;
+}
+
+.description {
+  color: #5E6282;
+  font-size: 16px;
+  font-family: poppins;
+  margin: 30px 0 0 0;
+  width: 450px;
+  line-height: 30px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  width: 379px;
+  height: 60px;
+  margin: 34px 0 0 0;
+}
+
+.find-out-more {
+  width: 110px;
+  height: 40px;
+  background: #fbb319;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.play {
+  color: #686D77;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 1px;
+
+}
+.play-demo {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+  height: 52px;
+  width: 52px
+  }
+
+.flex {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.travel-image {
+  position: absolute;
+  padding: 15px;
+  width: 600px;
+  height: 600px;
+  margin-left: 565px
+  }
+
+.lady {
+ position: relative;
+ top: 50px;
+ width: 100%;
+ height: 100%;
+}
