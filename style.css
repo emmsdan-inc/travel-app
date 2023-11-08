@@ -16,16 +16,16 @@ body {
   padding-top: 7px;
   padding-left: 140px;
   padding-right: 110px;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 10vh;
   width: 80vw;
 }
 
 .logo {
-  width: 114.91;
-  height: 33.99;
+  width: 114.91px;
+  height: 33.99px;
   cursor: pointer;
-  padding-right: 140px;
+  padding-right: 130px;
 }
 
 .nav-item {
@@ -45,7 +45,7 @@ body {
   padding: 15px 0px;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 a {
@@ -118,7 +118,7 @@ a .login {
   width: 385px;
   height: 12px;
   left: 212px;
-  top: 186px;
+  top: 192px;
   position: absolute;
 
 }
