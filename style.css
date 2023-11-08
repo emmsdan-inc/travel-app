@@ -1,50 +1,37 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
-
 
 .header_list{
   display: flex;
   justify-content: space-around;
-  align-items: center; 
-  flex-direction: row;
- /* gap: 8px;*/
+  align-items: center;
   color: var(--1st, #212832);
   font-family: Google Sans;
   font-size: 17px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
-  margin-top: 40px;
+  padding: 47px 110px 42px 140.92px;
 }
-.navhead{
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
+
 #logo{
   width: 114.912px;
   height: 33.994px;
   flex-shrink: 0;
 }
 
-#heading{
-color: #DF6951;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding-left: 110px; 
-padding-top: 80px;
+.navhead{
+width: 60%;
+justify-content: space-between;
+align-items: center;
+display: flex;
 }
 
-
-#sign{
+#Sign{
   width: 102px;
   height: 40px;
-  flex-shrink: 0;
+  flex-shrink: 0; 
 }
