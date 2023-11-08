@@ -12,6 +12,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
+
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -19,10 +20,12 @@ nav ul {
   gap: 6rem;
   align-items: center;
 }
+
 nav ul li {
   list-style: none;
   text-decoration: none;
 }
+
 nav ul li a {
   text-decoration: none;
   color: var(--1st, #212832);
@@ -32,6 +35,7 @@ nav ul li a {
   font-weight: 600;
   line-height: normal;
 }
+
 header nav button {
   padding: 1.2em 2rem;
   border-radius: 8px;
@@ -97,12 +101,23 @@ header nav button {
   letter-spacing: -3.36px;
 }
 
+.main-container .content .text3 p {
+  color: #5E6282;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  width: 477px;
+  margin-top: -2rem;
+  line-height: 30px;
+}
+
 .text2 .image-decore {
   position: absolute;
   z-index: -1;
-  top: 24rem;
-  left: 31rem;
-
+  top: 21rem;
+  left: 32rem;
+}
 
 .main-container .image-container img {
   width: 765px;
