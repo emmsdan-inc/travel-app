@@ -9,16 +9,16 @@ body {
   padding: 0;
 }
 
- .top-nav {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 27px;
-    padding-left: 140px;
-    padding-right: 110px;
-    justify-content: space-between;
-    height: 10vh;
-    width: 80vw;
+.top-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 27px;
+  padding-left: 140px;
+  padding-right: 110px;
+  justify-content: space-between;
+  height: 10vh;
+  width: 80vw;
 }
 
 .logo {
@@ -28,24 +28,24 @@ body {
   padding-right: 140px;
 }
 
- .nav-item {
-    display: flex;
-    align-items: center;
-    color: #212832;
-    font-size: 17px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 500px;
+.nav-item {
+  display: flex;
+  align-items: center;
+  color: #212832;
+  font-size: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 500px;
 }
 
 .nav-item a {
-    flex: 1;
-    padding: 15px 0px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
+  flex: 1;
+  padding: 15px 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
 }
 
 a {
@@ -75,33 +75,30 @@ a .login {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 1440px;
-  height: 911px;
+  width: 80vw;
+  height: 80vh;
   background-color: white;
-  padding: 0px 110px 42px 140.92px;
+  padding: 0px 110px 42px 140px;
 
 }
 
 /* Group of items in the hero */
 .hero-content {
   display: flex;
-  width: 1182px;
-  height: 764px;
-  left: 7.08px;
-  top: 58px;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
   position: relative;
 }
 
 /* The left side of the page */
 .desc {
-  /* display: flex; 
-  */
-  flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 1.8rem; */
-  width: 630px;
-  height: 535px;
+  justify-content: space-between;
+  width: 55%;
+  height: 70vh;
 }
 
 .desc .hero-subheader {
@@ -112,28 +109,27 @@ a .login {
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
-  margin-top: 112px;
+  margin-top: 20px;
+
 }
 
 .desc .decore {
   width: 385px;
   height: 12px;
-  left: 215px;
-  top: 236px;
+  left: 230px;
+  top: 146px;
   position: absolute;
 
 }
 
 .desc .hero-header {
-  color: var(--1st, #181E4B);
+  color: #181E4B;
   font-family: Volkhov;
-  font-size: 84px;
-  font-style: normal;
+  font-size: 75px;
   font-weight: 700;
-  line-height: 89px;
-  letter-spacing: -3.36px;
+  line-height: 70px;
+  letter-spacing: -1.36px;
   z-index: 1;
-  /* position: absolute; */
 }
 
 .desc .hero-text {
@@ -142,8 +138,9 @@ a .login {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 25px;
   width: 477px;
+  word-wrap: break-word;
 }
 
 .Cta {
@@ -179,7 +176,6 @@ a .login {
 }
 
 .play-demobox {
-
   align-items: center;
   width: 52px;
   height: 52px;
@@ -193,9 +189,7 @@ a .login {
   height: 52px;
   position: absolute;
   top: 7px;
-  /* border-radius: 50%; */
 }
-
 
 .play-demo p {
   color: #686D77;
@@ -205,9 +199,13 @@ a .login {
 }
 
 /* The right side of the page */
-.aside-img {
-  width: 765px;
-  height: 764px;
-  left: 417px;
+.aside-box {
+  width: 45%;
+  left: 510px;
   position: absolute;
+}
+
+.aside-box img {
+  width: 490px;
+  height: 500px;
 }
