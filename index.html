@@ -4,19 +4,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="robots" content="travel-app">
+  <meta name="descfiption" content="This is a travel app to book airflight">
   <title>Jadoo Travels</title>
 
-  <link href="./style.css" rel="stylesheet" type="text/css" />
-</head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
 <body>
     <!-- Do your work below this comment -->
-    <header>
-      <h1>Best Destinations around the world</h1>
+
+    <header id="travel-header">
+      <div class="logo">
+        <img src="logo.svg" alt="travel-app logo">
+      </div>
+
+      <!-- list of the navigation menu -->
+      <div  id="nav_menu">
+        <ul class="nav_item">
+          <li><a hreflang="">Destinations</a></li>
+          <li><a hreflang="">Hotels</a></li>
+          <li><a hreflang="">Flights</a></li>
+          <li><a hreflang="">Bookings</a></li>
+        </ul>
+      </div>
+           <!-- sign up/ login details -->
+        <div class="create">
+            <button type="submit" >Login</button>
+            <button type="submit">Sign up</button>
+          </div>
     </header>
-    <main></main>
+
+    <!-- Main section  -->
+    <main>
+    <!-- Main Section one details of the web page -->
+
+      <section class="desc">
+
+        <p class="tagline">Best Destinations around the world</p>
+        <h1 class="heading">Travel, enjoy <br>and live a new <br>and full life</h1>
+        <p class="description">Built Wicket longer admire do barton vanity itself do in it.<br> Preferred to sportsmen it
+            engrossed listening. Park gate <br>sell they west hard for the.</p>
+           
+         <div class="btns">
+            <a href=""><button class="find-out-more">Find out more</button></a>
+            <a href=""><img src="Images/PlayButton.png" alt="play button" class="play-demo"></a>
+            <p class="play">Play Demo</p>
+
+            </div>
+      </section>
+
+      <!-- main section two for the image-->
+      <section class="travel-image">
+        <img  class= "lady" src="./Images/Vector.png" alt= "A lady carrying a travel bag">
+        </section>
+    </main>
+
     <!-- Don't touch below this till week 7 -->
     <footer></footer>
-</body>
-
+  </body>
 </html>
