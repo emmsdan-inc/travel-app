@@ -1,4 +1,53 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  
+  
 }
+
+.one{
+display: flex;
+flex-direction: row;
+margin-top: auto;
+text-indent: 50px;
+margin-left: 250px;
+margin-top: -50px;
+
+
+}
+  
+  
+.two{
+  column-gap: normal;
+  flex-direction: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-overflow: ellipsis;
+white-space: nowrap;
+}
+.three{
+  margin-right: 200px;
+  margin-top: -400px;
+  margin-left: 350px;
+transform: scale(0.5);
+}
+.four{
+  color: red;
+  
+}
+  .five{
+  border: 1px;overflow: hidden;white-space: nowrap;
+  padding-top: 10px;
+  line-height: 2px;
+    
+  }
+.six{
+  margin-bottom: -50px;
+}
+  }
+  
+
+
+
+
+
+
