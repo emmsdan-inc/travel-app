@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0
 }
+/*  GoodluckEze/MennaRihan */
 /* HEADER */
 .container {
   width: 85%;
@@ -46,3 +47,85 @@ header .container .navbar-list-wrapper .navbar-list .signup-btn {
   Height: 40px;
   border: 1px solid #212832;
 }
+=======
+/* MAIN */
+main .container .hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main .container .hero-section .hero-text {
+  width: 35%; 
+}
+main .container .hero-section .hero-text .hero-title {
+  font-family: 'Poppins', sans-serif;
+  color: #DF6951;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+main .container .hero-section .hero-text .hero-desc {
+  font-family: 'Volkhov', sans-serif;
+  font-size: 84px;
+  color: #181E4B;
+  margin: 0.4em 0;
+  position: relative;
+  z-index: 1;
+}
+main .container .hero-section .hero-text .hero-desc .hero-desc-line {
+  position: absolute;
+  top: 0.1em;
+  left: 3.3em;
+  z-index: -1;
+}
+main .container .hero-section .hero-text .hero-desc-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #5E6282;
+}
+main .container .hero-section .hero-text .hero-icons-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2em;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-btn {
+  background-color: #F1A501;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon {
+  color: #DF6951;
+  cursor: pointer;
+  
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon .fa-circle-play {
+  width: 52px;
+  height: 52px;
+  font-size: 50px;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-icons-title {
+  color: #686D77;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25.5px;
+  cursor: pointer;
+}
+main .container .hero-section .hero-img {
+  width: 65%;
+}
+main .container .hero-section .hero-img img {
+  width: 100%;
+}
+
+/* >>>>>>> development-MennaGoodluck */
