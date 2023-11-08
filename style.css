@@ -1,4 +1,129 @@
 body {
-  margin: 0;
-  padding: 0
+  margin: 0px;
+  padding: 0px;
 }
+main{
+  padding: 10px;
+  margin: 35px;
+  border: 200px;
+  width: 630px;
+  height: 535px;
+  top: 217px;
+  left: 148px;
+
+}
+.heading{
+  padding-top: 73px;
+}
+.first{
+  border: 5px;
+  display: flex;
+  text-align: center; 
+  border: 200px;
+  margin: 35px;
+  gap: 170px;
+}
+.list{
+  display: flex;
+  gap: 100px;
+}
+.icon{
+  width: 114.91px;
+  height: 33.99px;
+  top: 48.7px;
+  left: 140.92px;
+}
+.button1{
+  width: 59px;
+  height: 22px;
+  top: 56px;
+  left: 1141px;
+  
+}
+.heading1{
+  width: 450px;
+  height: 0px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 1800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DF6951;
+  
+}
+.heading2{
+
+   font-family: Volkhov;
+   font-size: 90px;
+   text-align: left;
+   color: rgba(24, 30, 75, 1);
+   font-family: Volkhov;
+   letter-spacing: -0.04px;
+   font-weight:855000px; 
+}
+.line{
+   position: relative; 
+   top: -310px; 
+   left: 250px; 
+   z-index: -1;
+
+}
+.lady{
+  width: 1px;
+  height: 754px;
+  position: relative;
+  top: -0px; 
+  left: -80px; 
+  
+}
+.lad{
+  position: relative;
+  top:-30px ;
+  left:-20px ;
+}
+.page{
+  width: 477px;
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: left;
+  color: rgba(94, 98, 130, 1);
+
+}
+.content{
+  display: flex ;
+
+}
+.div2{
+  width: 379px;
+  left: 148px;;
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  width: 379px;
+  height: 60px;
+  top: 692px;
+  left: 148px;
+  border-radius: 10px;
+}
+.button2{
+  background: rgba(241, 165, 1, 1);
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height:50px ;
+
+
+}
+.youtube{
+  width: 52px;
+ height: 52px;
+ top: 696px;
+ left: 362px;
+
+}
+ .play{
+  border: none;
+  background-color: transparent;
+ }
+  
