@@ -1,4 +1,36 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  display: flex;
+  width: 1440px;
+  height: 911px;
+  padding: 47px 110px 42px 140.92px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header-container {
+  justify-content: space-between;
+  width: 1080.08px;
+  height: 40px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+ 
+}
+#navigation {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+#navigation li {
+  margin-right: 45px;
+ 
+}
+#navigation a {
+  text-decoration: none;
+  color: black;
 }
