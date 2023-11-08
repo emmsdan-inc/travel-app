@@ -51,6 +51,7 @@ header .container .navbar-list-wrapper .navbar-list .signup-btn {
 /* MAIN */
 main .container .hero-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
