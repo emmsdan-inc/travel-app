@@ -2,47 +2,51 @@ body {
   margin: 0;
   padding: 0;
 }
+  .Travel{
+    display: inline-flex;
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+.Tag{
+  color: #DF6951;
 
-main {
-  display: flex;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 500px;
+}
+.heading{
+  color: var(--1st, #181E4B);
+font-family: Volkhov;
+font-size: 84px;
+font-style: normal;
+font-weight: 700;
+line-height: 89px; /* 105.952% */
+letter-spacing: -3.36px;
+}
+.text{
+  color: #5E6282;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+z-index: 1;
+}
+.image{
+  width: 765px;
+height: 764px;
+flex-shrink: 0;
+}
+
+img.design{z-index: -1;
   position: relative;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 700px;
-}
+left: 230px;
+top: -270px;
 
-section.description {
-  position: absolute;
-  top: 100px;
-  height: 500px;
-  width: 700px;
-}
+   
 
-section.image {
-  display: flex;
-  position: absolute;
-  height: 100%;
-  right: 0px;
-}
-
-header {
-  color: palevioletred;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-}
-
-div.heading {
-  text-wrap: nowrap;
-  color: rgb(3, 3, 102);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 110px;
-  font-stretch: expanded;
-}
-
-div.text {
-  color: rgb(5, 5, 70);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: medium;
 }
