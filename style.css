@@ -14,9 +14,9 @@ header .container .navbar {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 88px;
-  padding-top: 1%;
+  padding: 1.5% 0;
 }
 header .container .logo {
   width: 114px;
@@ -44,8 +44,8 @@ header .container .navbar-list-wrapper .navbar-list .navbar-list-item a {
 header .container .navbar-list-wrapper .navbar-list .signup-btn {
   background-color: #FFFFFF;
   border-radius: 5px;
-  Width: 102px;
-  Height: 40px;
+  Width: 95px;
+  Height: 35px;
   border: 1px solid #212832;
 }
 /* MAIN */
@@ -55,10 +55,11 @@ main .container .hero-section {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 2%;
+  margin-top: 1.8%;
 }
 main .container .hero-section .hero-text {
-  width: 57%; 
+  width: 44%; 
+  padding-top: 3%;
 }
 main .container .hero-section .hero-text .hero-title {
   font-family: 'Poppins', sans-serif;
@@ -69,15 +70,15 @@ main .container .hero-section .hero-text .hero-title {
 }
 main .container .hero-section .hero-text .hero-desc {
   font-family: 'Volkhov', sans-serif;
-  font-size: 84px;
+  font-size: 65px;
   color: #181E4B;
-  margin: 0.4em 0;
+  margin: 0;
   position: relative;
   z-index: 1;
 }
 main .container .hero-section .hero-text .hero-desc .hero-desc-line {
   position: absolute;
-  top: 0.1em;
+  top: 0.14em;
   left: 3.3em;
   z-index: -1;
 }
@@ -85,14 +86,14 @@ main .container .hero-section .hero-text .hero-desc-2 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 300;
   color: #5E6282;
 }
 main .container .hero-section .hero-text .hero-icons-list {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 2em;
+  gap: 3.5em;
 }
 main .container .hero-section .hero-text .hero-icons-list .hero-btn {
   background-color: #F1A501;
@@ -100,15 +101,31 @@ main .container .hero-section .hero-text .hero-icons-list .hero-btn {
   height: 60px;
   border-radius: 10px;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
+  border: none;
+  box-shadow: 3px 6px 29px -9px rgba(161,161,161,0.75);
 }
 main .container .hero-section .hero-text .hero-icons-list .hero-play-icon {
-  color: #DF6951;
+  color: #FFFFFF;
   cursor: pointer;
-  
+  position: relative;
+  font-size: 15px;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon::after {
+  content: " ";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #DF6951;
+  z-index: -1;
+  box-shadow: 1px 10px 18px 6px rgba(0, 0, 0, 0.10);
 }
 main .container .hero-section .hero-text .hero-icons-list .hero-play-icon .fa-circle-play {
   width: 52px;
@@ -118,13 +135,16 @@ main .container .hero-section .hero-text .hero-icons-list .hero-play-icon .fa-ci
 main .container .hero-section .hero-text .hero-icons-list .hero-icons-title {
   color: #686D77;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 25.5px;
   cursor: pointer;
 }
 main .container .hero-section .hero-img {
-  width: 65%;
+  width: 53%;
+  position: absolute;
+  top: 13%;
+  right: 10%;
 }
 main .container .hero-section .hero-img img {
   width: 100%;
