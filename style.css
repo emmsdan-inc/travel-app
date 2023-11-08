@@ -20,7 +20,7 @@ svg{
   width: 370px;
   height: 10px;
   flex-shrink: 0;
-  top: 241px;
+  top: 252px;
   margin-left: 400px;
   z-index: -1;
 }
@@ -31,17 +31,19 @@ p{
   position: relative;
   top: 125px;
   left: 165px;
-  font-size: 18px;
+  line-height: normal;
+  font-style: normal;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  color:rgb(223, 105, 81) ;
+  color: #DF6951;
 
 }
 h2{
   width: 545px;
   height: 267px;
   position: relative;
-  top: 65px;
+  top: 75px;
   left: 160px;
   font-size: 75px;
   font-family: 'Volkhov', serif;
@@ -54,13 +56,59 @@ dl{
   width: 477px;
   height: 90px;
   position: relative;
-  top: 40px;
-  left: 158px;
+  top: 35px;
+  left: 160px;
   font-size: 16px;
   line-height: 30px;
   font-family: 'Poppins', sans-serif;
   color: #5E6282;
 }
 
+.down{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+.down button{
+  width: 140px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F1A501;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  box-shadow: inset;
+  box-shadow:  0px 20px 35px 0px rgba(240, 164, 1, 0.15);
+
+}
+
+.down img{
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 35px;
+  color: white;
+  background-color: #DF6951;
+  flex-shrink: 0;
+  box-shadow: inset;
+  box-shadow:  0px 20px 35px 0px rgba(240, 164, 1, 0.15);
+}
+.down span{
+  color: var(--text-color, #686D77);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin-left: 10px;
 
 
+}
