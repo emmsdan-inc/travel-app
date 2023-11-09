@@ -3,9 +3,38 @@ body {
   padding: 0
 }
 
-body {
-  margin: 0;
-  padding: 0
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+ 
+.topnav {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 80%;
+ 
+}
+ 
+li {
+  list-style-type: none;
+  padding-top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  /* width: 10%; */
+}
+ 
+button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  height: 40px;
+  width: 102px;
+  font-weight: 600;
+ 
 }
 
 #main-container {
@@ -79,3 +108,4 @@ button {
   right: 12.5rem;
   padding-bottom: 10rem;
 }
+
