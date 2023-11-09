@@ -97,6 +97,6 @@ ul li {
   align-items: center;
   width: 100%;
 }
-.content {
-  width: 50%;
+.img {
+  z-index: 1;
 }
