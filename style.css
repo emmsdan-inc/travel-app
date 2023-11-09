@@ -238,10 +238,17 @@ header nav button {
   line-height: 30px;
 }
 
-.text2 .image-decore {
+/* .text2 .image-decore {
   position: absolute;
   z-index: -1;
   top:  21rem;
+  left: 32rem;
+} */
+
+.text2 .image-decore {
+  position: absolute;
+  z-index: -1;
+  top: 21rem;
   left: 32rem;
 }
 
