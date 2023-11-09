@@ -1,73 +1,75 @@
-body {
+body{
   margin: 0;
   padding: 0;
   background-color: rgb(255,255,255);
-  /* font-family: 'Poppins', sans-serif;
-  font-family: 'Volkhov', serif; */
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Volkhov', serif;
 }
+
+.header{
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  padding: 20px 50px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  width: 114.9px;
+  height: 33.9;
+  cursor: pointer;
+  margin-left: 140px;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: rgba(33, 40, 50, 1) ;
+  font-weight: 500;
+  margin-left: 120px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+.signup{
+  font-family: 'Roboto', sans-serif;
+  color:rgba(33, 40, 50, 1) ;
+  width: 102px;
+  height: 40px;
+  margin-right: 160px;
+  font-weight: 500;
+    /* flex-shrink: 0; */
+  border-radius: 5px;
+  border: 1px solid rgba(33, 40, 50, 1);
+  background-color: rgb(255,255,255);
+ 
+}
+
 main{
   display: flex;
   align-items: center;
   justify-content: center ;
-  height: 70vh;
+  /* height: 560px; */
   /* margin: 140px; */
   /* padding: 50px; */
 }
-/* section{
-  display: flex;
-  flex-direction: row;
-  width: 765px;
-  height: 764px;
-} */
-
-.logo-img{
-  display: flex;
-  margin: 40px;
-  width: 114.9px;
-  height: 33.9;
-
-}
-.nav-head{
-  margin-top: 0px;
-  padding: 20px;
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 65px;
-  color: rgba(33, 40, 50, 1);
-  font-family: Volkhov;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;    
-}
-.nav-bar{
- color: rgba(33, 40, 50, 1);
- padding-left: 80px;
-}
-.signup-btn{
-  color:rgba(33, 40, 50, 1) ;
-  width: 102px;
-  height: 40px;
-  /* flex-shrink: 0; */
-  border-radius: 5px;
-  border: 1px solid rgba(33, 40, 50, 1);
-  background-color: rgb(255,255,255);
-
-}
 .decore{
-  width: 300px;
-  height: 10px;
+  width: 375px;
+  height: 12px;
   flex-shrink: 0;
   position: absolute;
-  top: 309px;
-  left: 483px;
+  top: 285px;
+  left: 462px;
 }
 
 .orange-text{
   color: rgba(223, 105, 81, 1); 
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -76,7 +78,7 @@ main{
 
 }
 .travel-text{
-  font-family: Volkhov;
+font-family: 'Volkhov', serif;
   color: rgba(24, 30, 75, 1);
   font-size: 84px;
   margin: 0px;
@@ -87,11 +89,12 @@ main{
 }
 .description-text{
   color: rgba(94, 98, 130, 1);
-  font-family: Poppins;
-  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: lighter;
   line-height: 30px; /* 187.5% */
+
 }
 .findmore-btn{
   width: 160px;
@@ -103,14 +106,15 @@ main{
   box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  font-family: Google Sans;
-  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .play-btn{
-
+  position: absolute;
+  top: 592px;
   box-shadow: rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.19);
   width: 100px;
   height: 100px;
@@ -118,12 +122,13 @@ main{
 }
 .play-demo{
   position: absolute;
-  top: 620px;
+  top: 616px;
+  left: 455px;
   color: rgba(104, 109, 119, 1);
-  font-family: Poppins;
-  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 
@@ -140,7 +145,7 @@ main{
   height: 15px;
 } */
 .girl-travel{
-  height: 430px;
-  width: 380px;
+  height: 628px;
+  width: 580px;
   position: relative;
 }
