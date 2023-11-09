@@ -43,7 +43,7 @@ img {
 
 .main-content {
   display: inline-flex;
-  height: 911px;
+  height: 500px;
   padding: 47px 110px 42px 140.92px;
   justify-content: flex-end;
   align-items: center;
@@ -115,3 +115,57 @@ svg {
   display: inline-flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
+=======
+header {
+  
+  background-color: white;
+  padding: 50px 10px;
+ 
+}
+ 
+ 
+ 
+.logo{
+  margin-left: 150px;
+  padding: 20px 10px;
+  height:100px;
+  width: 100px;
+  margin-top: -47px;
+ 
+ 
+}
+ 
+a {
+ 
+  color: black;
+    padding: 12px;
+   text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header-items {
+  float: right;
+  margin-right: 200px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+ 
+  
+}
+.btn {
+  
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 10px 5px;
+border-radius: 4px;
+border: 1px solid black;
+ 
+}
+ 
+
+>>>>>>> 32f73d91c79dee722f01ffdd126fc7696f890569
