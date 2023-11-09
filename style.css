@@ -2,3 +2,49 @@ body {
   margin: 0;
   padding: 0
 }
+
+#sign-up-button {
+  background: #fff;
+  padding: 10px 22px;
+  color: #212832;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 5px;
+  width: 110px;
+  height: 40px;
+}
+header {
+  display: flex;
+  padding-top: 47px;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-right: 140px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+nav ul {
+  display: flex;
+  padding-right: 30px;
+  gap: 40px;
+}
+nav ul li {
+  color: #212832;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 30px;
+}
