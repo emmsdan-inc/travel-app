@@ -12,9 +12,9 @@ body {
 }
 
 svg{
-  width: 850px;
+  /* width: 850px;
   height: 764px;
-  position: absolute;
+  position: absolute; */
   top: 30px;
   left: 565px;
   flex-shrink: 0;
@@ -116,8 +116,16 @@ dl{
   margin-left: 10px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
 .nav-list li a {
-  gap:50px;
+  margin-left: 20px;
   color:  #212832 !important;
 font-family: Google Sans;
 font-size: 17px;
@@ -125,14 +133,19 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration: none;
+font-family: sans-serif;
 }
 .nav-list {
   list-style: none;
   display: flex;
-  justify-content: space-between; 
- 
- 
- 
+  justify-content: space-between;
+
+
+
+}
+header {
+display: flex;
+
 }
 .signup {
   width: 102px;
@@ -146,14 +159,8 @@ padding-top: 9px;
 padding-bottom: 9px;
 }
 nav {
-  /* flex: 1;
-  padding: 100px 100px; */
-  display: flex;
-  gap: 30px;
+  flex: 1;
 }
 .logo {
-width: 114.912px;
-height: 33.994px;
-flex-shrink: 0;
- 
+  padding-right: 200px;
 }
