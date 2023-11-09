@@ -13,15 +13,20 @@ h2,
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding-left: 50px;
+  
 }
 
 /* ========== style for header starts here ========== */
 
 nav {
   display: flex;
-  width: 90%;
-  justify-content: space-between;
-   padding-top: 47px;  
+  width: 80%;
+  /* justify-content: space-between;  */
+   padding-top: 47px; 
+   gap: 200px  
+
 }
 
 #Logo {
@@ -33,13 +38,14 @@ nav {
 .nav-items {
   display: flex;
   align-items: center;
-  gap: 75px;
-  width: 60%;
+  /* gap: 75px; */
+  width: 80%; 
+  justify-content: space-evenly;
 }
 
 .nav-items a {
   color: #212832;
-  font-family: Roboto;
+  font-family: Poppins;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -85,13 +91,15 @@ main {
   display: flex;
   align-items: center;  
   justify-content: space-between;
+  width: 100%;
 }
 
 .text__section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 490px;
+  /* height: 490px;  */
+    /* width: 470px;  */
   
 }
 
@@ -104,6 +112,7 @@ main {
   letter-spacing: 0em;
   text-align: left;
   text-transform: uppercase;
+  width: 500px;
 }
 
 .hero__text {
