@@ -12,15 +12,26 @@ h2,
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.mini__container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ========== style for header starts here ========== */
 
 nav {
   display: flex;
-  width: 90%;
-  justify-content: space-between;
+  /* width: 80%;
+  margin-right: auto;
+  margin-left: auto; */
+  justify-content: center; 
    padding-top: 47px;  
 }
 
@@ -34,7 +45,9 @@ nav {
   display: flex;
   align-items: center;
   gap: 75px;
-  width: 60%;
+  position: relative;
+  left: 200px;
+  /* width: 60%; */
 }
 
 .nav-items a {
@@ -84,7 +97,10 @@ nav {
 main {
   display: flex;
   align-items: center;  
-  justify-content: space-between;
+  /* justify-content: space-around;  */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text__section {
@@ -128,10 +144,13 @@ main {
   width: 477px;
   height: 90px;
 }
-
+.img__section{
+  position: relative;
+  right: 200px;
+}
 .lady{
   width: 765px;
-  height: 650px;
+  height: 660px;
 }
 
 .decor {
