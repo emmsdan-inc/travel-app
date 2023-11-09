@@ -1,4 +1,152 @@
-body {
+body{
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  grid-gap: 300px;
+  align-items: center;
+  padding: 50px;
+  height: auto;
+  }
+
+.list-items{
+  display: flex;
+  align-items:center;
+  gap: 20px;
+  list-style: none;
+}
+
+.sign{
+  width: 50px;
+  padding: 5px;
+}
+
+.container{
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  gap:30px;
+}
+
+header.logo{
+  grid-gap: 30px;
+  padding: 50px;
+  width: 50px;
+}
+
+.nav-buttons{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+  gap: 70px;
+  position: relative;
+  font-size: 20px;
+  font-style: normal;
+  font-family: serif;
+}
+
+.text{
+  color: red;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  padding: 150px;
+  margin: 10px;
+  vertical-align: middle;
+    }
+.decore{
+      z-index: -1;
+      height: 1px;
+      flex-shrink: 0;
+      position: absolute;
+      index:1;
+      width: 1px;
+      transform: translate(-300%);
+      padding: 5px;
+      max-width: 10%
+      }
+      .text-2{
+        position: relative;
+        z-index: -1;
+        index: 1;
+      }
+
+.content-2{
+          display: flex;
+          flex-direction: column;
+          padding: 30px;
+          width: 500px;
+          height: 500px;
+          flex-shrink: 0;
+          align-items: center;
+          vertical-align: middle;
+}
+.travel{
+  color: var(--1st, #181E4B);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Volkhov;
+  font-style: normal;
+  font: Google Sans;
+  letter-spacing: -3.36px;
+}
+
+
+.more{
+  background-color: orange;
+  padding: 10px;
+  width: 88px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.enjoy{
+  z-index: -1px;
+  index: 1px;
+}
+
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sound{
+  background-color: white;
+  color: #DF6951;
+  width: 80px;
+  height: 60px;
+  flex-shrink: 0;
+  position: relative;
+  border: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  }
+
+.sound svg{
+  margin-top: 5px;
+}
+
+header, main{
+  margin: 10px;
+  padding: 10px;
 }
