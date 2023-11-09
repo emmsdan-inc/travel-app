@@ -4,17 +4,13 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 45px; 
 }
 .main{
   display: flex;
   position: relative;
 }
-
 svg{
-  /* width: 850px;
-  height: 764px;
-  position: absolute; */
   top: 30px;
   left: 565px;
   flex-shrink: 0;
@@ -115,18 +111,9 @@ dl{
   line-height: normal;
   margin-left: 10px;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 45px;
-  padding-bottom: 45px;
-}
 .nav-list li a {
-  margin-left: 20px;
-  color:  #212832 !important;
+margin-left: 10px;
+color:  #212832 !important;
 font-family: Google Sans;
 font-size: 17px;
 font-style: normal;
@@ -140,11 +127,10 @@ font-family: sans-serif;
   display: flex;
   justify-content: space-between;
 
-
-
 }
 header {
 display: flex;
+gap: 80px;
 
 }
 .signup {
@@ -159,8 +145,9 @@ padding-top: 9px;
 padding-bottom: 9px;
 }
 nav {
-  flex: 1;
+  justify-content: space-between;
+  width: 70%;
 }
 .logo {
-  padding-right: 200px;
+   padding-left: 150px; 
 }
