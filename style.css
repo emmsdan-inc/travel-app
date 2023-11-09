@@ -1,4 +1,156 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
 }
+/*  GoodluckEze/MennaRihan */
+/* HEADER */
+.container {
+  width: 85%;
+  margin: auto;
+}
+header .container .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 88px;
+  padding: 1.5% 0;
+}
+header .container .logo {
+  width: 114px;
+  height: 33.9px;
+  cursor: pointer;
+}
+header .container .navbar-list-wrapper {
+  width: 70%;
+}
+header .container .navbar-list-wrapper .navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+header .container .navbar-list-wrapper .navbar-list .navbar-list-item a {
+  text-decoration: none;
+  color: #212832;
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+header .container .navbar-list-wrapper .navbar-list .signup-btn {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  Width: 95px;
+  Height: 35px;
+  border: 1px solid #212832;
+}
+/* MAIN */
+main .container .hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.8%;
+}
+main .container .hero-section .hero-text {
+  width: 44%; 
+  padding-top: 3%;
+}
+main .container .hero-section .hero-text .hero-title {
+  font-family: 'Poppins', sans-serif;
+  color: #DF6951;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+main .container .hero-section .hero-text .hero-desc {
+  font-family: 'Volkhov', sans-serif;
+  font-size: 65px;
+  color: #181E4B;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+main .container .hero-section .hero-text .hero-desc .hero-desc-line {
+  position: absolute;
+  top: 0.14em;
+  left: 3.3em;
+  z-index: -1;
+}
+main .container .hero-section .hero-text .hero-desc .hero-desc-line img {
+  width: 4.5em;
+}
+main .container .hero-section .hero-text .hero-desc-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #5E6282;
+}
+main .container .hero-section .hero-text .hero-icons-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3.5em;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-btn {
+  background-color: #F1A501;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 6px 29px -9px rgba(161,161,161,0.75);
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon {
+  color: #FFFFFF;
+  cursor: pointer;
+  position: relative;
+  font-size: 15px;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon::after {
+  content: " ";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #DF6951;
+  z-index: -1;
+  box-shadow: 1px 10px 18px 6px rgba(0, 0, 0, 0.10);
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-play-icon .fa-circle-play {
+  width: 52px;
+  height: 52px;
+  font-size: 50px;
+}
+main .container .hero-section .hero-text .hero-icons-list .hero-icons-title {
+  color: #686D77;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.5px;
+  cursor: pointer;
+}
+main .container .hero-section .hero-img {
+  width: 53%;
+  position: absolute;
+  top: 13%;
+  right: 10%;
+}
+main .container .hero-section .hero-img img {
+  width: 100%;
+}
+
+/* development-MennaGoodluck */
