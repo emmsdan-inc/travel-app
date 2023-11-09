@@ -2,3 +2,44 @@ body {
   margin: 0;
   padding: 0
 }
+.nav-list li a {
+  gap:50px;
+  color:  #212832 !important;
+font-family: Google Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; 
+ 
+ 
+ 
+}
+.signup {
+  width: 102px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid var(--1st, #212832);
+padding-left: 22px;
+padding-right: 22px;
+padding-top: 9px;
+padding-bottom: 9px;
+}
+nav {
+  /* flex: 1;
+  padding: 100px 100px; */
+  display: flex;
+  gap: 30px;
+}
+.logo {
+width: 114.912px;
+height: 33.994px;
+flex-shrink: 0;
+ 
+}
