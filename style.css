@@ -33,12 +33,14 @@ header {
     font-weight: 400;
     position: relative;
 }
-
-button {
-    padding: 5px 15px;
-    display: flex;
-  margin-right: 20%;}
-
+ button {
+        padding: 8px 20px;
+        display: flex;
+        border-radius: 5px;
+        font-family: Google Sans;
+        font-weight: 500;
+        font-size: 17px;
+    }
 
 
 .main_container{
@@ -114,8 +116,8 @@ padding-top: 0.01rem;
 }
 
 #more_btn{
-  width: 160px;
-  height: 60px;
+  width: 150px;
+  height: 45px;
   color: #fff;
   flex-shrink: 0;
   border-radius: 10px;
