@@ -2,3 +2,80 @@ body {
   margin: 0;
   padding: 0
 }
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+#main-container {
+  display: flex;
+  
+}
+
+#destination {
+  position: relative;
+  padding: 5rem;
+}
+
+.best-destination {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: #DF6951;
+  margin: 0 auto;
+}
+
+.travel {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Volkhov";
+  color:  #181E4B;
+  margin: 0 auto;
+}
+
+.decore-line {
+  position: absolute;
+  z-index: -1;
+  top: 10.5rem;
+  left: 18.5rem;
+
+}
+
+.last-paragraph {
+  font-size: .9rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  color:  #5E6282;
+  padding-right: 15rem;
+  margin-bottom: 0;
+}
+
+.lower-button {
+  display: inline-flex;
+  /* width: 10%; */
+  /* position: relative; */
+}
+
+button {
+  background-color:  #F1A501;
+  padding: .8rem;
+  border-radius: .5rem;
+  border-color: #F1A501;
+  color: #ffff;
+  font-size: .8rem;
+  font-family: "Google Sans";
+  font-weight: 200;
+}
+
+.play-button {
+  width: 12%;
+  position: relative;
+  top: 2.5rem;
+}
+
+#lady-travel {
+  position: relative;
+  right: 12.5rem;
+  padding-bottom: 10rem;
+}
