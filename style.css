@@ -12,21 +12,24 @@ h2,
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding-left: 50px;
-  
+  justify-content: center; 
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
-
-/* ========== style for header starts here ========== */
+.mini__container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 nav {
   display: flex;
-  width: 80%;
-  /* justify-content: space-between;  */
-   padding-top: 47px; 
-   gap: 200px  
-
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 47px;  
 }
 
 #Logo {
@@ -38,9 +41,9 @@ nav {
 .nav-items {
   display: flex;
   align-items: center;
-  /* gap: 75px; */
-  width: 80%; 
-  justify-content: space-evenly;
+  gap: 55px;
+  position: relative;
+  left: 200px;
 }
 
 .nav-items a {
@@ -51,6 +54,7 @@ nav {
   font-weight: 500;
   line-height: normal;
   text-decoration: none;
+
 }
 
 .nav-items a:active {
@@ -85,23 +89,19 @@ nav {
   cursor: pointer;
 }
 
-/* ========== style for main starts here ========== */
-
 main {
   display: flex;
   align-items: center;  
-  justify-content: space-between;
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text__section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 490px;  */
-    /* width: 470px;  */
-  
-}
+  }
 
 .text__section h2 {
   color: #df6951;
@@ -116,7 +116,7 @@ main {
 }
 
 .hero__text {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 89px;
   letter-spacing: -0.04em;
@@ -128,19 +128,22 @@ main {
 
 .text__section p {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
   color: #5e6282;
-  width: 477px;
+  width: 400px;
   height: 90px;
 }
-
+.img__section{
+  position: relative;
+  right: 200px;
+}
 .lady{
   width: 765px;
-  height: 650px;
+  height: 660px;
 }
 
 .decor {
@@ -152,7 +155,7 @@ main {
   position: absolute;
   width: 385px;
   height: 10px;
-  top: 80%;
+  top: 75%;
   left: -60px;
 }
 
