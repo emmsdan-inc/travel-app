@@ -28,10 +28,10 @@ h2,
 
 nav {
   display: flex;
-  /* width: 80%;
+  width: 90%;
   margin-right: auto;
-  margin-left: auto; */
-  justify-content: center; 
+  margin-left: auto;
+  /* justify-content: center;  */
    padding-top: 47px;  
 }
 
@@ -123,7 +123,7 @@ main {
 }
 
 .hero__text {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 89px;
   letter-spacing: -0.04em;
@@ -135,13 +135,13 @@ main {
 
 .text__section p {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
   color: #5e6282;
-  width: 477px;
+  width: 400px;
   height: 90px;
 }
 .img__section{
