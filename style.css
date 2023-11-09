@@ -3,6 +3,7 @@ body {
   padding: 0
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -39,7 +40,7 @@ button {
 
 #main-container {
   display: flex;
-  
+  margin-left: 5rem;
 }
 
 #destination {
@@ -86,13 +87,13 @@ button {
   /* position: relative; */
 }
 
-button {
+.button2 {
   background-color:  #F1A501;
   padding: .8rem;
   border-radius: .5rem;
   border-color: #F1A501;
   color: #ffff;
-  font-size: .8rem;
+  font-size: .7rem;
   font-family: "Google Sans";
   font-weight: 200;
 }
@@ -100,7 +101,7 @@ button {
 .play-button {
   width: 12%;
   position: relative;
-  top: 2.5rem;
+  top: 2rem;
 }
 
 #lady-travel {
