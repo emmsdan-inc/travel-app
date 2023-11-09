@@ -86,6 +86,14 @@ header nav button {
   text-transform: uppercase;
 }
 
+.text2 .image-decore {
+  position: absolute;
+  z-index: -1;
+  top: 21rem;
+  left: 32rem;
+}
+
+
 .text2 {
   margin-top: -7rem;
 }
