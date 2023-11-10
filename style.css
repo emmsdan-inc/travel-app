@@ -68,29 +68,51 @@ li {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   /* border: 1px solid; */
 }
 
 .des2 {
   color: rgba(24, 30, 75, 1);
   font-family: "Volkhov", serif;
+  padding-top: 10px;
   font-size: 70px;
-  line-height: 78px;
+  line-height: 75px;
   letter-spacing: -0.5px;
+}
+
+.decore {
+  position: relative;
+  display: inline-block;
+}
+
+.decore img {
+  position: absolute;
+  /* width: 385px; */
+  /* height: 12px; */
+  top: 57px;
+  left: -33px;
+  z-index: -1;
+}
+
+.enjoy-text {
+  position: relative;
 }
 
 .des3 {
   color: rgba(94, 98, 130, 1);
   font-family: "Poppins", sans-serif;
-  /* font-weight: 500; */
+  /* margin-top: 10px; */
+  padding-top: 15px;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .des4 {
   display: flex;
-  margin-top: 18px;
+  margin-top: 25px;
+  margin-left: -3px;
 }
 
 .find-button {
@@ -131,6 +153,7 @@ li {
   position: absolute;
   z-index: 1;
   /* right: 10px; */
-  left: 400px;
+  left: 435px;
+  width: 60%;
   /* border: 1px solid; */
 }
