@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+
 .header_list{
   display: flex;
   justify-content: space-around;
@@ -34,4 +35,49 @@ display: flex;
   width: 102px;
   height: 40px;
   flex-shrink: 0; 
+
+  .Travel{
+    display: inline-flex;
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+.Tag{
+  color: #DF6951;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.heading{
+  color: var(--1st, #181E4B);
+font-family: Volkhov;
+font-size: 84px;
+font-style: normal;
+font-weight: 700;
+line-height: 89px; /* 105.952% */
+letter-spacing: -3.36px;
+}
+.text{
+  color: #5E6282;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+z-index: 1;
+}
+.image{
+  width: 765px;
+height: 764px;
+flex-shrink: 0;
+}
+
+img.design{z-index: -1;
+  position: relative;
+left: 230px;
+top: -270px;
+
 }
