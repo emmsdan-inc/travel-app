@@ -1,4 +1,148 @@
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Volkhov', 'Open Sans', sans-serif, 'Josefin Sans', 'Lato', 'Montserrat', 'Poppins', 'Roboto' serif;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 10px; 
+  }
+  
+  .logo-container {
+    max-width: 200px;
+  }
+
+  #logo {
+    width: 110.91px;
+    height: 33.99px;
+    left: 140.92px;
+    top: 48.7px;
+    margin-top: -10px;
+
+  }
+
+  .navbar li{
+    position: relative;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding: 0 25px;
+    color: #212832;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height:normal;
+    font-size: 17px;
+    }
+    
+    .navbar li a:hover{
+      color: #212832;
+      
+    }
+    
+    li,a,button{
+      font-family:'Roboto', sans-serif;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px;
+      color: #212832;
+    }
+    
+    .signup.btn{
+      position: relative;
+      width: 102px;
+      height: 40px;
+      left: 1119px;
+      top: 47px;
+      border-radius: 5px;
+      border: 1px;
+      color: #212832;
+      margin-top: -3%;
+    }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#feature-content {
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
+
+.article-content h4{
+  text-transform: uppercase;
+  color: #DF6951;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.article-content h1{
+  font-size: 84px;
+  color:#181E4B;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 89px;
+  letter-spacing: -3.36px;
+}
+
+.article-content p {
+  color: #5E6282;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.article-content img {
+  position: relative;
+  bottom: 322px;
+  left: 250px;
+}
+
+.btn-control {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-1 {
+  border: 1px solid rgb(240, 164, 0);
+  background: #F1A501;
+  box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+  text-align: center;
+  color: #fff ;
+  font-size: 15px;
+  border-radius: 8px;
+  flex-basis: 0;
+  position: relative;
+  bottom: 60px;
+  padding: 15px 25px;
+  margin-right: 20px;
+  font-family: 'lato' sans-serif;;
+}
+
+.btn-2 {
+  color: #686D77;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background: transparent;
+  position: relative;
+  bottom: 60px;
+  right: 20px;
+}
+
+.lady-svg {
+position: relative;
+top: 130px;
+right: 170px;
+}
+
